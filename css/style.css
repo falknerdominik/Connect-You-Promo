@@ -6,8 +6,9 @@ body, html{
 	overflow: hidden;
 }
 
-section:nth-child(odd){
+section{
 	height: 100%;
+	width: 100%;
 	display: inline-block;
 	position: relative;
 	background-color: blue;
