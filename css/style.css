@@ -23,6 +23,10 @@ section:nth-child(even){
  * Home
  */
 
+#home{
+	margin: 0 auto;
+}
+
 #home img[alt="Connect You"]{
 	height: 50%;
 }
