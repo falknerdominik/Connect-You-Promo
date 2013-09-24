@@ -2,12 +2,12 @@ body, html{
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	overflow: hidden;
 }
 
 section{
 	height: 100%;
 	display: inline-block;
 	position: relative;
-	float: left;
 	background-color: blue;
 }
