@@ -25,9 +25,9 @@ section:nth-child(even){
 
 #home{
 	text-align: center;
+	vertical-align: center;
 }
 
 #home img[alt="Connect You"]{
-	margin-top: 10%;
 	height: 50%;
 }
