@@ -28,7 +28,7 @@ section:nth-child(even){
 	position: relative;
 }
 
-#home img[alt="Connect You"]{
+#home img[alt="Connect You"]{ /* LOGO */
 	height: 70%;
 	/* Center Absolute */
 	margin: auto;
