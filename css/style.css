@@ -6,7 +6,7 @@ body, html{
 
 section{
 	height: 100%;
-	display: block;
+	display: inline-block;
 	position: relative;
 	float: left;
 	background-color: blue;
