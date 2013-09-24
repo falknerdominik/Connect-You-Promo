@@ -37,7 +37,6 @@ section:nth-child(even){
 }
 
 #home h1{ /* LOGO */
-	height: 100%;
 	/* Center Absolute */
 	margin: auto;
   	position: absolute;
