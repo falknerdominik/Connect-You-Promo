@@ -30,6 +30,7 @@ section:nth-child(even){
 #home img[alt="Connect You"]{
 	position: absolute;
 	height: 50%;
+	left: 50%;
 	top: 50%;
 	margin-top: -297.5px;
 }
