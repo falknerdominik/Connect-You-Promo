@@ -1,3 +1,7 @@
+/**************
+ * Allgemein
+ ***********/
+
 body, html{
 	height: 100%;
 	width: 264.8%;
@@ -13,4 +17,12 @@ section{
 
 section:nth-child(even){
 	background-color: blue;
+}
+
+/***************
+ * Home
+ */
+
+#home img[alt="Connect You"]{
+	height: 50%;
 }
