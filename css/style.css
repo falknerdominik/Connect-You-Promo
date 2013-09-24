@@ -35,10 +35,3 @@ section:nth-child(even){
   	position: absolute;
   	top: 0; left: 0; bottom: 11em; right: 0;
 }
-
-#home h1{ /* LOGO */
-	/* Center Absolute */
-	margin: auto;
-  	position: absolute;
-  	top: 49em; left: 0; bottom: 0; right: 0;
-}
