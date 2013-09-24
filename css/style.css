@@ -5,10 +5,13 @@ body, html{
 	margin: 0;
 }
 
-section:nth-child(odd){
+section{
 	height: 100%;
 	width: 100%;
 	display: block;
 	float: left;
+}
+
+section:nth-child(odd){
 	background-color: blue;
 }
