@@ -28,5 +28,6 @@ section:nth-child(even){
 }
 
 #home img[alt="Connect You"]{
+	margin-top: 30%;
 	height: 50%;
 }
