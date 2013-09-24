@@ -32,5 +32,5 @@ section:nth-child(even){
 	/* Center Absolute */
 	margin: auto;
   	position: absolute;
-  	top: 0; left: 0; bottom: 200; right: 0;
+  	top: 0; left: 0; bottom: 100; right: 0;
 }
