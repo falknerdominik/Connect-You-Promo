@@ -31,7 +31,5 @@ section:nth-child(even){
 	position: absolute;
 	height: 50%;
 	left: 50%;
-	margin-left: -178.5px;
 	top: 50%;
-	margin-top: -297.5px;
 }
