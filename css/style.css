@@ -72,7 +72,7 @@ section:nth-child(even){
 	margin-top: 200px;
 	width: 1200px;
 	height: 300px;
-	
+	float: right;
  }
  
  #bbspic{
