@@ -63,6 +63,9 @@ section:nth-child(even){
  /***************
  * Client
  */
+ #client{
+	color: white;
+ }
  
  #clientcontent{
 	margin-left: 255px;
