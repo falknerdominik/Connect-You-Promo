@@ -76,3 +76,16 @@ section:nth-child(even){
 	margin-top: -200px;
 	float:left;
  }
+ 
+  #clientcontent2{
+	margin-left: 255px;
+	margin-top: 200px;
+	width: 1200px;
+	height: 300px;
+ }
+ 
+ #lacheinerpic{
+	margin-left: 1300px;
+	margin-top: -200px;
+	float:left;
+ }
