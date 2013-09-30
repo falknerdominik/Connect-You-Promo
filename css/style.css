@@ -59,3 +59,12 @@ section:nth-child(even){
  p {
 	font-size: 24px;
  }
+ 
+ /***************
+ * Client
+ */
+ 
+ #bbspic{
+	margin-left: 800px;
+	margin-top: 200px;
+ }
