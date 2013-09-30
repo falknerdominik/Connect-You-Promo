@@ -64,6 +64,10 @@ section:nth-child(even){
  * Client
  */
  
+ #clientcontent{
+	
+ }
+ 
  #bbspic{
 	margin-left: 1400px;
 	margin-top: 150px;
