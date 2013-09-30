@@ -72,13 +72,14 @@ section:nth-child(even){
 	margin-top: 200px;
 	width: 1200px;
 	height: 300px;
-	float:right;
+	
  }
  
  #bbspic{
 	margin-left: 1500px;
 	margin-top: -330px;
 	float:left;
+	display: block;
  }
  
   #clientcontent2{
@@ -92,4 +93,5 @@ section:nth-child(even){
 	margin-left: 255px;
 	margin-top: -330px;
 	float:left;
+	display: block;
  }
