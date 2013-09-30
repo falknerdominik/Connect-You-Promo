@@ -40,9 +40,14 @@ section:nth-child(even){
  * Vision
  */
  
- #ueberschrift{
+ #headline{
 	margin-left: 250px;
-	margin-top: 200px;
+	margin-top: 700px;
+ }
+ 
+ #visiontext{
+	margin-left: 250px;
+	margin-top: 700px;
  }
  
  h1{
