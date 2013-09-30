@@ -48,6 +48,8 @@ section:nth-child(even){
  #visiontext{
 	margin-left: 255px;
 	margin-top: 50px;
+	width: 300px;
+	height: 300px;
  }
  
  h1{
