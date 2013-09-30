@@ -85,10 +85,10 @@ section:nth-child(even){
 	margin-top: 100px;
 	width: 1200px;
 	height: 300px;
-	float:left;
  }
  
  #lacheinerpic{
 	margin-left: 255px;
 	margin-top: -500px;
+	float:left;
  }
