@@ -146,6 +146,10 @@ section:nth-child(even){
  /***************
  * Team 2
  */
+ #team-2{
+	color: white;
+ }
+ 
  #member4{
 	margin-left: 500px;
 	margin-top: 200px;
