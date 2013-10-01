@@ -101,7 +101,7 @@ section:nth-child(even){
  */
  #member1{
 	margin-left: 500px;
-	margin-top: 50px;
+	margin-top: 30px;
 	width: 1200px;
 	height: 300px;
 	
@@ -116,7 +116,7 @@ section:nth-child(even){
  
  #member2{
 	margin-left: 255px;
-	margin-top: 50px;
+	margin-top: 30px;
 	width: 1200px;
 	height: 300px;
  }
@@ -130,7 +130,7 @@ section:nth-child(even){
  
  #member3{
 	margin-left: 500px;
-	margin-top: 50px;
+	margin-top: 30px;
 	width: 1200px;
 	height: 300px;
 	
