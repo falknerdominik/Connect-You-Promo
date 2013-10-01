@@ -96,7 +96,7 @@ section:nth-child(even){
 	display: block;
  }
  
-  /***************
+ /***************
  * Team 1
  */
  #member1{
@@ -142,4 +142,37 @@ section:nth-child(even){
 	float:left;
 	display: block;
  }
+ 
+ /***************
+ * Team 2
+ */
+ #member4{
+	margin-left: 500px;
+	margin-top: 70px;
+	width: 1200px;
+	height: 300px;
+	
+ }
+ 
+ #member4pic{
+	margin-left: 255px;
+	margin-top: -330px;
+	float:left;
+	display: block;
+ }
+ 
+ #member5{
+	margin-left: 255px;
+	margin-top: 30px;
+	width: 1200px;
+	height: 300px;
+ }
+ 
+ #member5pic{
+	margin-left: 1500px;
+	margin-top: -330px;
+	float:left;
+	display: block;
+ }
+ 
  
