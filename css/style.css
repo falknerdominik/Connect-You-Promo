@@ -16,6 +16,7 @@ section{
 	float: left;
 }
 
+/* color sections for debugging */
 section:nth-child(even){
 	background-color: blue;
 }
