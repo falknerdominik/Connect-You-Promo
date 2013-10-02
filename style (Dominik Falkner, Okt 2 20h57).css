@@ -1,0 +1,97 @@
+/**************
+ * Allgemein
+ ***********/
+
+body, html{
+	height: 100%;
+	width: 264.8%;
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+}
+
+section{
+	height: 100%;
+	width: 14.285%;
+	float: left;
+}
+
+section:nth-child(even){
+	background-color: blue;
+}
+
+/***************
+ * Home
+ */
+
+#home{
+	position: relative;
+}
+
+#home img[alt="Connect You"]{ /* LOGO */
+	height: 70%;
+	/* Center Absolute */
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 11em; right: 0;
+}
+
+/***************
+ * Vision
+ */
+ 
+ #vision h1{
+	margin-left: 250px;
+	margin-top: 200px;
+ }
+ 
+ #vision p{
+	padding-left: 255px;
+	margin-top: 50px;
+	width: 1200px;
+	height: 300px;
+ }
+ 
+ h1{
+	font-size: 400%;
+ }
+ 
+ p {
+	font-size: 80%;
+ }
+ 
+ /***************
+ * Client
+ */
+ #client{
+	color: white;
+ }
+ 
+ #clientcontent{
+	margin-left: 255px;
+	margin-top: 200px;
+	width: 1200px;
+	height: 300px;
+ }
+ 
+ #bbspic{
+	margin-left: 1500px;
+	margin-top: -330px;
+	float:left;
+	display: block;
+ }
+ 
+  #clientcontent2{
+	margin-left: 500px;
+	margin-top: 100px;
+	width: 1200px;
+	height: 300px;
+	
+ }
+ 
+ #lacheinerpic{
+	margin-left: 255px;
+	margin-top: -330px;
+	float:left;
+	display: block;
+ }
