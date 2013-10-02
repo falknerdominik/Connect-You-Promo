@@ -106,3 +106,9 @@ p {
 	display: block;
 	width: 10%;
 }
+
+.clientcontent p:nth-child(even){
+	float: left;	
+}
+
+
