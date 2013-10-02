@@ -59,14 +59,14 @@ p {
 }
  
 #vision h1{
-	margin-left: 1%;
-	margin-top: 5%;
+	margin-left: 2%;
+	margin-top: 10%;
 }
  
 #vision p{
-	margin-left: 2%;
+	margin-left: 2.5%;
 	width: 90%;
-	padding: 4em;
+	padding-left: 4em;
 }
  /***************
  * Client
