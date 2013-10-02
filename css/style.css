@@ -56,6 +56,11 @@ p {
  */
 
 #vision{
+	position: relative;
+}
+
+#vision #wrapper{
+	text-align: center;	
 }
  
 #vision h1{
