@@ -4,7 +4,7 @@
 
 body, html{
 	height: 100%;
-	width: 264.8%;
+	width: 264.8%; 
 	padding: 0;
 	margin: 0;
 	overflow-y: hidden;
@@ -12,7 +12,7 @@ body, html{
 
 section{
 	height: 100%;
-	width: 14.285%;
+	width: 14.285%; /* 10 / 7 * 100  d. h. jeder Slide hat eine Breite von 100%;*/
 	float: left;
 }
 
