@@ -96,6 +96,11 @@ p {
 	height: 300px;
  }
  
+.clientcontent p{
+	padding: 0;
+	margin: 0;
+}
+ 
  #bbspic{
 	margin-left: 1500px;
 	margin-top: -330px;
