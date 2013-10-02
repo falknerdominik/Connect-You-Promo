@@ -61,6 +61,7 @@ p {
 }
 
 #vision h1{
+	display: block;
 }
  
 #vision p{
