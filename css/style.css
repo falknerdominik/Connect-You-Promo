@@ -61,9 +61,8 @@ p {
 }
 
 #vision h1{
-	display: block;
-	position: static;
 	text-align: right;
+	margin-right: 5%;
 }
  
 #vision p{
