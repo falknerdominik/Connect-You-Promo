@@ -56,6 +56,10 @@ p {
 /***************
  * Vision
  */
+
+#vision{
+	padding: 4em;
+}
  
  #vision h1{
 	margin-left: 250px;
