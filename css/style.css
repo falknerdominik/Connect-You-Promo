@@ -93,7 +93,7 @@ p {
  #client{
 	position: relative;
 	text-align: center;
-	padding-top: 1%;
+	padding-top: 0.5%;
  }
  
  #client div{
@@ -103,7 +103,7 @@ p {
  
 .clientcontent{
 	width: 90%;
-	padding: 2em;
+	padding: 0.5%;
 	margin-bottom: 3%;
  }
  
