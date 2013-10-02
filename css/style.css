@@ -96,6 +96,10 @@ p {
 	height: 300px;
  }
  
+.clientcontent p{
+	display: block;
+}
+ 
 .clientcontent img{
 	display: block;
 }
