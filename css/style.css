@@ -111,4 +111,9 @@ p {
 	float: left;	
 }
 
+.clientcontent p:nth-child(odd){
+	float: right;	
+}
+
+
 
