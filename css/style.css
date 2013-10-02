@@ -46,7 +46,7 @@ p {
 }
 
 .floatLeft{
-	
+	float: left;
 }
 
 .floatRight{
