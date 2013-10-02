@@ -54,6 +54,10 @@ p {
 	float: right;
 	margin-left: 3%;
 }
+
+#videoplatzhalter{
+	border: 1px solid black;
+}
  
 /***************
  * Home
