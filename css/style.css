@@ -63,6 +63,7 @@ p {
 #vision h1{
 	display: block;
 	position: static;
+	text-align: right;
 }
  
 #vision p{
