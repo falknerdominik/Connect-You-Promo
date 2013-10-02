@@ -58,16 +58,16 @@ p {
 	padding: 4em;
 }
  
- #vision h1{
-	margin-left: 250px;
-	margin-top: 200px;
- }
+#vision h1{
+	margin-left: 1%;
+	margin-top: 5%;
+}
  
- #vision p{
+#vision p{
 	margin-left: 0px;
 	margin-top: 50px;
 	width: 100%;
- }
+}
  /***************
  * Client
  */
