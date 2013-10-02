@@ -42,15 +42,12 @@ p {
  */
 
 #home{
-	position: relative;
+	position: relative; /* preperation to center img */
+	text-align: center; /* center img in container */
 }
 
 #home img[alt="Connect You"]{ /* LOGO */
-	height: 70%;
-	/* Center Absolute */
-	margin: auto;
-  	position: absolute;
-  	top: 0; left: 0; bottom: 11em; right: 0;
+	height: 80%;
 }
 
 /***************
