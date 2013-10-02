@@ -45,7 +45,7 @@ p {
 	padding: 0;
 }
 
-.floatLeft{
+.floatLeft{ /* Klassen wie diese kann man oft wiederverwenden */
 	float: left;
 	margin-right: 3%;
 }
