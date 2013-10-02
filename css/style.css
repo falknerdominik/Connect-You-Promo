@@ -86,7 +86,9 @@ p {
  * Client
  */
  #client{
-	color: white;
+	position: relative;
+	text-align: center;
+	padding-top: 0.3%;
  }
  
  #clientcontent{
