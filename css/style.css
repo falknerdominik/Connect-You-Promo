@@ -95,6 +95,10 @@ p {
 	text-align: justify;
  }
  
+ #client div{
+ 	display: block;
+ }
+ 
 .clientcontent{
 	width: 80%;
 	padding: 2em;
