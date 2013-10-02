@@ -76,8 +76,9 @@ p {
 }
 
 #videoplatzhalter{
+	margin-top: 1%;
 	border: 1px solid black;
-	width: 89%;
+	width: 60%;
 	height: 89%;
 	display: inline-block;
 }
