@@ -38,9 +38,9 @@ h1{
 		margin-bottom: 0.2em;
 }
 
-p {
+p { /* Style p so das es überall gleich ausschaut */
 	font-size: 130%;
-	text-align: justify;
+	text-align: justify; /* blocksatz */
 	margin: 0;
 	padding: 0;
 }
