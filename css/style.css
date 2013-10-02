@@ -22,12 +22,12 @@ section:nth-child(even){
 
 h1{
 	font-family: Verdana;
-	font-variant: small-caps;
-	font-weight: 100;
-	font-size: 600%;
+		font-variant: small-caps;
+		font-weight: 100;
+		font-size: 600%;
 	padding: 0;
 	margin: 0;
-	margin-bottom: 1em;
+		margin-bottom: 1em;
 }
 
 p {
