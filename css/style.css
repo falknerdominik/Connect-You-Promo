@@ -54,12 +54,6 @@ p {
 	float: right;
 	margin-left: 3%;
 }
-
-#videoplatzhalter{
-	border: 1px solid black;
-	width: 95%;
-	height: 95%;
-}
  
 /***************
  * Home
@@ -72,6 +66,19 @@ p {
 
 #home img[alt="Connect You"]{ /* LOGO */
 	height: 80%;
+}
+
+/***************
+ * Video
+ */
+#video{
+	text-align: center;
+}
+
+#videoplatzhalter{
+	border: 1px solid black;
+	width: 95%;
+	height: 95%;
 }
 
 /***************
