@@ -49,6 +49,7 @@ section:nth-child(even){
 	margin-left: 255px;
 	margin-top: 50px;
 	height: 300px;
+	text-align: block;
  }
  
  h1{
