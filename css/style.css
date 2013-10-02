@@ -21,7 +21,7 @@ section:nth-child(even){
 }
 
 h1{
-	font-family: Tahoma;
+	font-family: default;
 	font-variant: small-caps;
 }
 
