@@ -80,6 +80,7 @@ p {
 	width: 95%;
 	height: 95%;
 	display: inline-block;
+	vertical-align: center;
 }
 
 /***************
