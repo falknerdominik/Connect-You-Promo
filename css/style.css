@@ -28,11 +28,6 @@ section{
 	border-left: 1px solid black;
 }
 
-/* color sections for debugging 
-section:nth-child(even){
-	background-color: blue;
-}*/
-
 h1{
 	font-family: Verdana;
 		font-variant: small-caps;
@@ -48,6 +43,10 @@ p {
 	text-align: justify;
 	margin: 0;
 	padding: 0;
+}
+
+.floatLeft{
+	
 }
  
 /***************
@@ -107,14 +106,4 @@ p {
 	display: block;
 	width: 10%;
 }
-
-.clientcontent p:nth-child(even){
-	float: left;	
-}
-
-.clientcontent p:nth-child(odd){
-	float: right;	
-}
-
-
 
