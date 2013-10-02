@@ -95,7 +95,7 @@ p {
  }
  
  #client div{
- 	display: block;
+ 	display: inline-block;
  	text-align: justify;
  }
  
