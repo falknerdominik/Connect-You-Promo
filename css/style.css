@@ -73,6 +73,7 @@ p {
  */
 #video{
 	text-align: center;
+	text-align: center;
 }
 
 #videoplatzhalter{
@@ -80,7 +81,6 @@ p {
 	width: 95%;
 	height: 95%;
 	display: inline-block;
-	vertical-align: center;
 }
 
 /***************
