@@ -18,13 +18,14 @@ html{ /* Himmel */
 	background: -o-linear-gradient(top, rgba(118, 151, 236, 1) 0%,rgba(197, 223, 245, 1) 61%, rgba(211, 236, 255, 1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, rgba(118, 151, 236, 1) 0%,rgba(197, 223, 245, 1) 61%, rgba(211, 236, 255, 1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom, rgba(118, 151, 236, 1) 0%,rgba(197, 223, 245, 1) 61%, rgba(211, 236, 255, 1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132963', endColorstr='#79bdf2',GradientType=0 ); /* IE6-9 */	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7697EC', endColorstr='#D3ECFF',GradientType=0 ); /* IE6-9 */	
 }
 
 section{
 	height: 100%;
 	width: 14.285%; /* 10 / 7 * 100  = 14.285; das zeigt: bei 7 Slides muss jeder Slides 14.285% sein bei einer breite von 264.8% */
 	float: left;
+	border-left: 1px solid black;
 }
 
 /* color sections for debugging 
