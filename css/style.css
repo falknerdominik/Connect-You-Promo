@@ -14,6 +14,7 @@ section{
 	height: 100%;
 	width: 14.285%;
 	float: left;
+	padding: 1em;
 }
 
 section:nth-child(even){
