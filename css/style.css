@@ -62,6 +62,7 @@ p {
 
 #vision h1{
 	display: block;
+	position: static;
 }
  
 #vision p{
