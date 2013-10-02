@@ -99,7 +99,6 @@ p {
 .clientcontent p{
 	display: block;
 	width: 80%;
-	float: left;
 }
  
 .clientcontent img{
