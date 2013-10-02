@@ -4,15 +4,15 @@
 
 body, html{
 	height: 100%;
-	width: 264.8%; 
+	width: 264.8%; /* keine Ahnung wieso genau diese Zahl .. aber sie funktioniert... fragts nd */
 	padding: 0;
 	margin: 0;
-	overflow-y: hidden;
+	overflow-y: hidden; /* keine vertikales scrollen möglich machen */
 }
 
 section{
 	height: 100%;
-	width: 14.285%; /* 10 / 7 * 100  d. h. jeder Slide hat eine Breite von 100%;*/
+	width: 14.285%; /* 10 / 7 * 100  = 14.285; das zeigt: bei 7 Slides muss jeder Slides 14.285% sein bei einer breite von 264.8% */
 	float: left;
 }
 
