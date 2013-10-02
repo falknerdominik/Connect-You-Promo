@@ -101,7 +101,7 @@ p { /* Style p so das es überall gleich ausschaut */
 #vision h1{
 	text-align: right;
 	margin-right: 5%;
-	color: rgba(255,255,255,0.4);
+	color: rgba(255,255,255,0.25);
 }
  
 #vision p{
