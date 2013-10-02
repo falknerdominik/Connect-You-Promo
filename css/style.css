@@ -87,25 +87,25 @@ p {
 	width: 90%;
 	display: inline-block;
 }
- /***************
- * Client
- */
- #client{
+/***************
+* Client
+*/
+#client{
 	position: relative;
 	text-align: center;
 	padding-top: 0.5%;
- }
+}
  
- #client div{
+#client div{
  	display: inline-block;
  	text-align: justify;
- }
+}
  
 .clientcontent{
 	width: 90%;
 	padding: 2%;
 	margin-bottom: 3%;
- }
+}
  
 .clientcontent p{
 	display: block;
