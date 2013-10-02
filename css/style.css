@@ -21,6 +21,7 @@ section:nth-child(even){
 }
 
 h1{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-variant: small-caps;
 }
 
