@@ -48,6 +48,10 @@ p {
 .floatLeft{
 	
 }
+
+.floatRight{
+	float: right;
+}
  
 /***************
  * Home
