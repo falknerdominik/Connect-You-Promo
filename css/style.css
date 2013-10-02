@@ -13,7 +13,7 @@ body, html{
 html{
 	/*background: rgb(19,41,99); /* Old browsers */
 	/*background: -moz-linear-gradient(top, rgba(19,41,99,1) 0%, rgba(38,133,210,1) 61%, rgba(121,189,242,1) 100%); /* FF3.6+ */
-	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(19,41,99,1)), color-stop(61%,rgba(38,133,210,1)), color-stop(100%,rgba(121,189,242,1))); /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(19,41,99,1)), color-stop(61%,rgba(38,133,210,1)), color-stop(100%,rgba(121,189,242,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(to bottom, rgba(118, 151, 236, 1) 0%,rgba(197, 223, 245, 1) 61%,rgba(211, 236, 255, 1) 100%); /* Chrome10+,Safari5.1+ */
 	/*background: -o-linear-gradient(top, rgba(19,41,99,1) 0%,rgba(38,133,210,1) 61%,rgba(121,189,242,1) 100%); /* Opera 11.10+ */
 	/*background: -ms-linear-gradient(top, rgba(19,41,99,1) 0%,rgba(38,133,210,1) 61%,rgba(121,189,242,1) 100%); /* IE10+ */
