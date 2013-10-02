@@ -28,7 +28,7 @@ section{
 	border-left: 1px solid black;
 }
 
-h1{
+h1{ /* Style h1 */
 	font-family: Verdana;
 		font-variant: small-caps;
 		font-weight: 100;
