@@ -98,6 +98,7 @@ p {
  
 .clientcontent p{
 	width: 70%;
+	display: block;
 }
  
 #bbspic{
