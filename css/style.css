@@ -226,4 +226,5 @@ p { /* Style p so das es überall gleich ausschaut */
 	padding: 0;
 	margin: 0;
 		margin-bottom: 0.2em;
+	float: left;
 }
