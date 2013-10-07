@@ -155,13 +155,13 @@ p { /* Style p so das es überall gleich ausschaut */
  
 .teamcontent{
 	width: 90%;
-	padding: 2%;
+	padding: 1.5%;
 	margin-bottom: 1%;
 }
  
 .teamcontent p{
 	display: block;
-	width: 75%;
+	width: 90%;
 }
  
 .teamcontent img{
