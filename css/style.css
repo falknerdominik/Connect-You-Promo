@@ -166,5 +166,5 @@ p { /* Style p so das es überall gleich ausschaut */
  
 .teamcontent img{
 	display: inline-block;
-
+	margin-bottom: 2%;
 }
