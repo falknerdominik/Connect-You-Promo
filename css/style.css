@@ -227,4 +227,5 @@ p { /* Style p so das es überall gleich ausschaut */
 	margin: 0;
 		margin-bottom: 0.2em;
 	text-align: left;
+	margin-left: 8%;
 }
