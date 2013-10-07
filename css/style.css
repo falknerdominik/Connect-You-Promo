@@ -108,6 +108,7 @@ p { /* Style p so das es überall gleich ausschaut */
 	width: 90%;
 	display: inline-block;
 }
+
 /***************
 * Client
 */
@@ -135,6 +136,6 @@ p { /* Style p so das es überall gleich ausschaut */
  
 .clientcontent img{
 	display: inline-block;
-
+	width: 20%;
 }
 
