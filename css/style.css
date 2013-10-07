@@ -4,7 +4,7 @@
 
 body, html{
 	height: 100%;
-	width: 264.8%; /* keine Ahnung wieso genau diese Zahl .. aber sie funktioniert... fragts nd */
+	width: 265.8%; /* keine Ahnung wieso genau diese Zahl .. aber sie funktioniert... fragts nd */
 	padding: 0;
 	margin: 0;
 	overflow-y: hidden; /* keine vertikales scrollen möglich machen */
