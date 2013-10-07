@@ -133,5 +133,8 @@ p { /* Style p so das es überall gleich ausschaut */
 	width: 75%;
 }
  
+.clientcontent img{
+	display: inline-block;
 
+}
 
