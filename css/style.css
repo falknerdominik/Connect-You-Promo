@@ -233,4 +233,5 @@ p { /* Style p so das es überall gleich ausschaut */
 #links img{
 	display: inline-block;
 	margin-left: 7%;
+	margin-bottom: 3%;
 }
