@@ -229,3 +229,7 @@ p { /* Style p so das es überall gleich ausschaut */
 	text-align: left;
 	margin-left: 5%;
 }
+
+#links img{
+	display: inline-block;
+}
