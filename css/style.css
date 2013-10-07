@@ -140,7 +140,7 @@ p { /* Style p so das es überall gleich ausschaut */
 }
 
 /***************
-* Team
+* Team-1
 */
 #team-1{
 	position: relative;
@@ -149,6 +149,35 @@ p { /* Style p so das es überall gleich ausschaut */
 }
  
 #team-1 div{
+ 	display: inline-block;
+ 	text-align: justify;
+}
+ 
+.teamcontent{
+	width: 90%;
+	padding: 1.5%;
+	margin-bottom: 1%;
+}
+ 
+.teamcontent p{
+	display: block;
+	width: 75%;
+}
+ 
+.teamcontent img{
+	display: inline-block;
+}
+
+/***************
+* Team-2
+*/
+#team-2{
+	position: relative;
+	text-align: center;
+	padding-top: 0.5%;
+}
+ 
+#team-2 div{
  	display: inline-block;
  	text-align: justify;
 }
