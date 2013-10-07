@@ -196,3 +196,24 @@ p { /* Style p so das es überall gleich ausschaut */
 .team2content img{
 	display: inline-block;
 }
+
+/***************
+ * Links
+ */
+
+#links{
+	position: relative;
+	text-align: center;
+	padding-top: 0.3%;
+}
+
+#links h1{
+	text-align: right;
+	margin-right: 5%;
+	color: rgba(255,255,255,0.25);
+}
+ 
+#links p{
+	width: 90%;
+	display: inline-block;
+}
