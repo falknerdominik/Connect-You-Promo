@@ -139,3 +139,32 @@ p { /* Style p so das es überall gleich ausschaut */
 	width: 20%;
 }
 
+/***************
+* Team
+*/
+#team-1{
+	position: relative;
+	text-align: center;
+	padding-top: 0.5%;
+}
+ 
+#team-1 div{
+ 	display: inline-block;
+ 	text-align: justify;
+}
+ 
+.clientcontent{
+	width: 90%;
+	padding: 2%;
+	margin-bottom: 3%;
+}
+ 
+.clientcontent p{
+	display: block;
+	width: 75%;
+}
+ 
+.clientcontent img{
+	display: inline-block;
+	width: 20%;
+}
