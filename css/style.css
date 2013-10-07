@@ -23,7 +23,7 @@ html{ /* Himmel */
 
 section{
 	height: 100%;
-	width: 14.125%; /* 10 / 7 * 100  = 14.285; das zeigt: bei 7 Slides muss jeder Slides 14.285% sein bei einer breite von 264.8% */
+	width: 14.158%; /* 10 / 7 * 100  = 14.285; das zeigt: bei 7 Slides muss jeder Slides 14.285% sein bei einer breite von 264.8% */
 	float: left;
 	border-left: 1px solid black;
 }
