@@ -153,18 +153,18 @@ p { /* Style p so das es überall gleich ausschaut */
  	text-align: justify;
 }
  
-.clientcontent{
+.teamcontent{
 	width: 90%;
 	padding: 2%;
 	margin-bottom: 3%;
 }
  
-.clientcontent p{
+.teamcontent p{
 	display: block;
 	width: 75%;
 }
  
-.clientcontent img{
+.teamcontent img{
 	display: inline-block;
 	width: 20%;
 }
