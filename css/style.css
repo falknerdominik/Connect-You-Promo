@@ -232,7 +232,7 @@ p { /* Style p so das es überall gleich ausschaut */
 
 #links img{
 	display: inline-block;
-	margin: center;
+	text-align: center;
 	margin-right: 5%;
 	margin-bottom: 8%;
 }
