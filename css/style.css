@@ -231,6 +231,7 @@ p { /* Style p so das es überall gleich ausschaut */
 }
 
 #links img{
+	padding: 3px;
 	margin-right: 5%;
 	margin-bottom: 8%;
 }
