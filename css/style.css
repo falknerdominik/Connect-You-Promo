@@ -160,7 +160,7 @@ p { /* Style p so das es überall gleich ausschaut */
 }
 
 .teamcontent:nth-child(odd){
-	width: 80%;
+	width: 60%;
 	padding: 1.5%;
 	margin-bottom: 5%;
 }
