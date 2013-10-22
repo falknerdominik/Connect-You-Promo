@@ -162,7 +162,7 @@ p { /* Style p so das es überall gleich ausschaut */
 .teamcontent:nth-child(odd) p{
 	width: 85%;
 	padding: 1.5%;
-	margin-bottom: 7%;
+	margin-bottom: 3%;
 	margin-left: 3%;
 }
  
@@ -198,7 +198,7 @@ p { /* Style p so das es überall gleich ausschaut */
 .team2content:nth-child(even) p{
 	width: 85%;
 	padding: 1.5%;
-	margin-bottom: 3%;
+	margin-bottom: 7%;
 	margin-left: 3%;
 }
  
