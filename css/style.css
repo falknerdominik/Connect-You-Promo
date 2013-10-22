@@ -159,7 +159,11 @@ p { /* Style p so das es überall gleich ausschaut */
 	margin-bottom: 1%;
 }
 
-.teamcontent:nth-child(even)
+.teamcontent:nth-child(even){
+	width: 80%;
+	padding: 1.5%;
+	margin-bottom: 7%;
+}
  
 .teamcontent p{
 	display: block;
@@ -191,7 +195,7 @@ p { /* Style p so das es überall gleich ausschaut */
 }
 
 .team2content:nth-child(even){
-	width: 90%;
+	width: 80%;
 	padding: 1.5%;
 	margin-bottom: 7%;
 }
