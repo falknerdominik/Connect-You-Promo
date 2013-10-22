@@ -194,7 +194,7 @@ p { /* Style p so das es überall gleich ausschaut */
 	margin-bottom: 7%;
 }
 
-.team2content:nth-child(even){
+.team2content:nth-child(even) p{
 	width: 90%;
 	padding: 1.5%;
 	margin-bottom: 7%;
