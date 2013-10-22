@@ -160,9 +160,10 @@ p { /* Style p so das es überall gleich ausschaut */
 }
 
 .teamcontent:nth-child(odd) p{
-	display: block;
-	width: 75%;
-	margin-bottom: 5%;
+	width: 85%;
+	padding: 1.5%;
+	margin-bottom: 7%;
+	margin-left: 3%;
 }
  
 .teamcontent p{
