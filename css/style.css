@@ -187,6 +187,12 @@ p { /* Style p so das es überall gleich ausschaut */
 	padding: 1.5%;
 	margin-bottom: 7%;
 }
+
+.team2content:nth-child(odd){
+	width: 90%;
+	padding: 1.5%;
+	margin-bottom: 7%;
+}
  
 .team2content p{
 	display: block;
