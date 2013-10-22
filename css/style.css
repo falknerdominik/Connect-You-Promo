@@ -159,7 +159,7 @@ p { /* Style p so das es überall gleich ausschaut */
 	margin-bottom: 1%;
 }
 
-.teamcontent:nth-child(even){
+.teamcontent:nth-child(odd){
 	width: 80%;
 	padding: 1.5%;
 	margin-bottom: 7%;
