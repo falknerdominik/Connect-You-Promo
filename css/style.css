@@ -65,7 +65,8 @@ p { /* Style p so das es überall gleich ausschaut */
 }
 
 #home img[alt="Connect You"]{ /* LOGO */
-	height: 80%;
+	
+	width:50%;
 }
 
 /***************
