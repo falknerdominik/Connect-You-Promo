@@ -68,9 +68,9 @@ p { /* Style p so das es überall gleich ausschaut */
 	height:175px;
 	background-image: url(../images/site/escheresque_ste.png);
 	background-repeat:repeat; 
-	-webkit-box-shadow: 0 0 0 2px #fff, inset 0 20px 20px rgba(1,1,1,.75);
-	-moz-box-shadow: 0 0 0 2px #fff, inset 0 20px 20px rgba(1,1,1,.75);
-	box-shadow: 0 0 0 2px #fff, inset 0 20px 20px rgba(1,1,1,.75);
+	-webkit-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
+	-moz-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
+	box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 }
 .arrow_box:after {
 	bottom: 100%;
