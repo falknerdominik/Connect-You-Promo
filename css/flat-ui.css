@@ -2941,8 +2941,8 @@ input.todo-search-field.placeholder {
 
 .video-js {
   background-color: transparent;
-  margin-top: -95px;
-  margin-left:0auto;
+  
+  margin:0auto;
   position: relative;
   padding: 0;
   font-size: 10px;
