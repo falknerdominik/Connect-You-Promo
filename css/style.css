@@ -66,21 +66,21 @@ p { /* Style p so das es überall gleich ausschaut */
 
 .arrow_box {
 	position: relative;
-	height:175px;
+	height: 175px;
 	background-image: url(../images/site/escheresque_ste.png);
-	background-repeat:repeat; 
+	background-repeat: repeat; 
 	-webkit-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 	-moz-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 	box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 }
 
 .repeat {
-	position:relative;
-	text-align:center;
+	position: relative;
+	text-align: center;
 	height: 30px;
 	width: 30px;
 	background-image: url(../images/site/escheresque_ste.png);
-	background-repeat:repeat; 
+	background-repeat: repeat; 
 	-webkit-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 	-moz-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 	box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
