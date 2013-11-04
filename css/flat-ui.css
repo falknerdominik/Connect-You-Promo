@@ -3468,8 +3468,7 @@ body.vjs-full-window {
   color: #bfc9ca;
   font-size: 16px;
   position: absolute;
-  right: 13px;
-  top: 9px;
+
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
