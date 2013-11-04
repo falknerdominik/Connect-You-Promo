@@ -3397,7 +3397,7 @@ body.vjs-full-window {
 
 .login-icon {
   left: 50px;
-  position: absolute;
+  position: relative;
   top: 160px;
   width: 96px;
 }
