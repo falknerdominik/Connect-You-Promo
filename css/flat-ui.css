@@ -3422,7 +3422,7 @@ body.vjs-full-window {
 .login-form {
   
   position: relative;
-  border-radius: 6px;
+  
 }
 .login-form:before {
   content: '';
