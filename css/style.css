@@ -91,7 +91,7 @@ p { /* Style p so das es überall gleich ausschaut */
  * Video
  */
 #video{
-	text-align: center; /* Zentriere inline-block */
+	 /* Zentriere inline-block */
 	position:relative;
 	margin:0auto;
 }
