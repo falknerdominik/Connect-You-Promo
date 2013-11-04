@@ -67,6 +67,7 @@ p { /* Style p so das es überall gleich ausschaut */
 .arrow_box {
 	position: absolute;
 	height: 175px;
+	width:100%;
 	margin-bottom:20px;
 	background-image: url(../images/site/escheresque_ste.png);
 	background-repeat: repeat; 
