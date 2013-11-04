@@ -2944,7 +2944,7 @@ input.todo-search-field.placeholder {
   
   
   position: relative;
-  margin-left:auto;
+  margin-left:0auto;
   
   font-size: 10px;
   
