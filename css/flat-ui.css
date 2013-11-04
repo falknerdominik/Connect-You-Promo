@@ -2937,6 +2937,10 @@ input.todo-search-field.placeholder {
     background-image: url(../images/todo/done-2x.png);
   }
 }
+.col-md-8 demo-video{
+	position:relative;
+	margin:0auto;
+}
 .video-js {
   background-color: transparent;
   margin-top: -95px;
