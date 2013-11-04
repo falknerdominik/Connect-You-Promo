@@ -3467,7 +3467,7 @@ body.vjs-full-window {
 .login-form .login-field-icon {
   color: #bfc9ca;
   font-size: 16px;
-  position: absolute;
+  position: relative;
 
   -webkit-transition: 0.25s;
   transition: 0.25s;
