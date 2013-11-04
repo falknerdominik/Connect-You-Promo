@@ -93,6 +93,7 @@ p { /* Style p so das es überall gleich ausschaut */
 #video{
 	text-align: center; /* Zentriere inline-block */
 	position:relative;
+	margin:0auto;
 }
 
 
