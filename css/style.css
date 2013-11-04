@@ -20,6 +20,7 @@ section{
 	width: 14.258%; /* 10 / 7 * 100  = 14.285; das zeigt: bei 7 Slides muss jeder Slides 14.285% sein bei einer breite von 264.8% */
 	float: left;
 	border-left: 1px solid black;
+	position: relative;
 }
 
 h1{ /* Style h1 */
@@ -92,7 +93,7 @@ p { /* Style p so das es überall gleich ausschaut */
  */
 #video{
 	text-align: center; /* Zentriere inline-block */
-	position:relative;
+	position: relative;
 }
 
 #videoplatzhalter{
