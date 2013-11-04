@@ -2944,7 +2944,7 @@ input.todo-search-field.placeholder {
   
   
   position: relative;
-  margin-top:120px;
+  margin-top:200px;
   margin-left:300px;
   
   font-size: 10px;
@@ -3432,7 +3432,7 @@ body.vjs-full-window {
   font-weight: 700;
 }
 .login-form {
-  
+  background-color: #edeff1;
   padding: 24px 23px 20px;
   position: relative;
   border-radius: 6px;
@@ -3467,8 +3467,9 @@ body.vjs-full-window {
 .login-form .login-field-icon {
   color: #bfc9ca;
   font-size: 16px;
-  position: relative;
-
+  position: absolute;
+  right: 13px;
+  top: 9px;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
