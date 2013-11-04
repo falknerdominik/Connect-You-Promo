@@ -2954,7 +2954,7 @@ input.todo-search-field.placeholder {
   backface-visibility: hidden;
 }
 .video-js .vjs-tech {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
