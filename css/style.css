@@ -40,7 +40,7 @@ h1{ /* Style h1 */
 
 p { /* Style p so das es überall gleich ausschaut */
 	font-size: 130%;
-	text-align: justify; /* blocksatz */
+	text-align: justify; /* Blocksatz */
 	margin: 0;
 	padding: 0;
 }
