@@ -1,0 +1,162 @@
+h1{ /* Style h1 */
+	font-family: Verdana;
+		font-variant: small-caps;
+		font-weight: 100;
+		font-size: 1300%;
+	padding: 0;
+	margin: 0;
+		margin-bottom: 0.1em;
+}
+
+p { /* Style p so das es überall gleich ausschaut */
+	font-size: 114%;
+	/*text-align: justify; /* Blocksatz */
+	margin-bottom: 1.5em;
+	padding: 0;
+}
+
+.floatLeft{ /* Klassen wie diese kann man oft wiederverwenden */
+	float: left;
+	margin-right: 3%;
+}
+
+.floatRight{
+	float: right;
+	margin-left: 1%;
+}
+
+body {
+	height:100%;
+	width:100%;
+	margin:0;padding:0;
+	overflow:hidden;
+	overflow-x: scroll;
+}
+
+#wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;left:0;
+	background-color:#ccc;
+	overflow:hidden;
+}
+
+	#mask {
+		width:500%;
+		height:100%;
+		background-color:#eee;
+	}
+
+	.item {
+		width:20%;
+		height:100%;
+		float:left;
+		background-image: url("pixel_weave_blau.png");
+	}
+	
+	
+	.content {
+		width:100%;
+		height:100%;
+		margin:0 auto;
+		position:relative;
+	}
+	
+	.selected {
+		background:#fff;
+		font-weight:700;
+	}
+
+	.clear {
+		clear:both;
+	}
+	
+	
+/***************
+ * Home
+ */
+ 
+	#logo {
+		width: 100%;
+	}
+	#logofeld {
+		width: 40%;
+		margin: 0 auto;
+		padding-top: 4%;
+	}
+	
+	#black {
+		position: absolute;
+		height: 175px;
+
+		width:100%;
+		bottom:20px;
+		background-image: url(escheresque_ste.png);
+		background-repeat: repeat; 
+		-webkit-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
+		-moz-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
+		box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
+	}
+	.form-signin {
+		width: 14%;
+		margin: 0 auto;
+		padding-top: 1.5em;
+	}
+	#formheight {
+		height: 3em;
+	}
+	
+	
+/***************
+ * Vision
+ */
+
+#item3{
+	position: relative;
+	text-align: center;
+	padding-top: 0.3%;
+}
+
+#item3 h1{
+	text-align: right;
+	margin-right: 5%;
+	color: rgba(255,255,255,0.25);
+}
+ 
+#item3 p{
+	width: 90%;
+	display: inline-block;
+}
+
+/***************
+ * Client
+ */
+ 
+ #auftraggeber{
+	width: 80%;
+	margin: 0 auto;
+	background-color: grey;
+ }
+.clientcontent{
+	width: 90%;
+	padding: 0.5%;
+	margin-bottom: 0.5%;
+}
+ 
+.clientcontent p{
+	display: block;
+	width: 75%;
+}
+ 
+.clientcontent img{
+	display: inline-block;
+}
+
+#firstclient {
+	float: right;
+}
+
+#secondclient {
+	float:left;
+}

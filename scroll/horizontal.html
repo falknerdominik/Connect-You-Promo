@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Scroll Horizontally</title>
+
+<link href="bootstrap.css" type="text/css" rel="stylesheet">
+<link href="demo.css" type="text/css" rel="stylesheet">
+<link href="flat-ui.css" type="text/css" rel="stylesheet">
+<link href="normalize.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<link href="style.css" type="text/css" rel="stylesheet">
+
+<script>
+
+$(document).ready(function() {
+
+	$('a.panel').click(function () {
+
+		$('a.panel').removeClass('selected');
+		$(this).addClass('selected');
+		
+		current = $(this);
+		
+		$('#wrapper').scrollTo($(this).attr('href'), 800);		
+		
+		return false;
+	});
+
+	$(window).resize(function () {
+		resizePanel();
+	});
+	
+});
+
+function resizePanel() {
+
+	width = $(window).width();
+	height = $(window).height();
+
+	mask_width = width * $('.item').length;
+		
+	$('#debug').html(width  + ' ' + height + ' ' + mask_width);
+		
+	$('#wrapper, .item').css({width: width, height: height});
+	$('#mask').css({width: mask_width, height: height});
+	$('#wrapper').scrollTo($('a.selected').attr('href'), 0);
+		
+}
+
+</script>
+<script src="http://vjs.zencdn.net/4.1/video.js"></script>
+</head>
+<body>
+
+
+<div id="wrapper">
+	<div id="mask">
+
+		<!-- Home -->
+		<div id="item1" class="item">
+			<a name="item1"></a>
+			<div class="content">
+					<div id="logofeld">
+						<img id="logo" src="logo.png"/>
+					</div>
+					<div id="black">
+						<form class="form-signin">
+							<input id="formheight" type="text" class="form-control" placeholder="Email address" required autofocus>
+							<input id="formheight" type="password" class="form-control" placeholder="Password" required>
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+							<a href="#item2" class="panel">2</a> | 
+							<a href="#item3" class="panel">3</a> | 
+							<a href="#item4" class="panel">4</a> | 
+							<a href="#item5" class="panel">5</a> | 
+							<a href="#item6" class="panel">6</a> | 
+							<a href="#item7" class="panel">7</a> | 
+						</form>
+					</div>
+			</div>
+        </div>
+		
+		
+		<!-- Video -->
+        <div id="item2" class="item">
+			<a name="item2"></a>
+									<!--[if !IE]> -->
+					<video class="video-js" controls preload="auto" width="720" height="405" poster="images/video/poster.jpg" data-setup="{}">
+					  <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+					  <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
+					  
+					</video>
+					<a href="#item1" class="panel">1</a>
+					<a href="#item3" class="panel">3</a> | 					
+			<div id="black">
+			</div>
+		</div>
+		
+		
+		<!-- Vision -->
+			<div id="item3" class="item">
+				<a name="item3"></a>
+					<h1>Vision</h1>
+						<p>	
+							Durch unser Projekt wird die Zusammenarbeit zwischen Schüler, Lehrer und auch dem Unternehmer enorm erleichtert. 
+							Jede dieser Parteien kann jederzeit die derzeitige Lage des Projektes verfolgen und sich leicht beteiligen. 
+							Der Auftraggeber kann jederzeit Feedback geben, Wünsche oder auch Fehler dem Projekteam mitteilen. 
+							Weiters erleichtert “Connect you” die Dokumentation.
+						</p>
+						<p>
+							Durch das einbinden in unsere Schulwebseite BBS-Rohrbach.at können auch unbeteiligte jeder Zeit den Fortschritt wie auch das Ergebnis betrachten. 
+							Das Projektportfolio wird automatisch generiert und auf der Website dargestellt.
+						</p>
+						<p>
+							Der Unternehmer erhält durch “Connect you” eine übersichtliche Darstellung des Projektes. 
+							Durch die Widgets hat er eine einfach Fortschrittskontrolle und ist somit immer am neuesten Stand. 
+							Außerdem erhält der Unternehmer eine ganz eigene Ansicht in Form eines speziell für den Unternehmer gestaltetes pinboard.
+						</p>
+						<p>
+							Ein großes Anliegen ist es uns, denn bisherigen “Papierkrieg” möglichst zu minimieren. “Connect you” soll Schüler und Unternehmen näher zusammen bringen 
+							und beide Parteien zum gemeinsamen Arbeiten animieren. Speziell für die Schule soll es die Organisation und die Übersicht  der Maturaprojekte erleichtern.
+						</p>	
+        
+                <div id="loginform"><a href="#item1" class="panel">1</a> | 
+				<a href="#item2" class="panel">2</a> | 
+				<a href="#item3" class="panel">3</a> | 
+				<a href="#item4" class="panel">4</a> | 
+				<a href="#item5" class="panel">5</a> | 
+                <a href="#item6" class="panel">6</a> | 
+                <a href="#item7" class="panel">7</a> | 
+                </div>
+				<div id="black">
+				</div>
+			</div>
+			
+			<!-- Client -->
+			<div id="item4" class="item">
+				<a name="item4"></a>
+					<div id="auftraggeber">
+						<div id="firstclient" class="clientcontent">
+								<p class="floatLeft">
+									Unser Auftraggeber ist unsere Schule - die BBS-Rohrbach, welche für Ihre hervorragende Ausbildung in den Bereichen
+									Sprachen, Wirtschaft, IT und Hauswirtschaft bekannt ist. Durch die verschiedenen Ausbildungsschwerpunkte ist für
+									jeden Schüler etwas dabei. 
+								</p>
+							<img src="http://placehold.it/250x250" />
+						</div>
+						
+						<div id="secondclient" class="clientcontent">
+							<img src="http://placehold.it/250x250" />
+							<p class="floatRight">
+								Ansprechpartner und maßgebliche Hilfe war unser IMC-Lehrer Ingo Lacheiner, welcher uns immer mit Rat und Tat zur Seite
+								stand und uns in allen Bereichen unterstützte. Hierbei ein großes Dankeschön, da es ohne seine Hilfe nicht möglich gewesen
+								wäre ein Projekt in dieser Größe zu realisieren. 
+							</p>
+						</div>
+					</div>
+                <div id="loginform"><a href="#item1" class="panel">1</a> | 
+				<a href="#item2" class="panel">2</a> | 
+				<a href="#item3" class="panel">3</a> | 
+				<a href="#item4" class="panel">4</a> | 
+				<a href="#item5" class="panel">5</a> | 
+                <a href="#item6" class="panel">6</a> | 
+                <a href="#item7" class="panel">7</a> | 
+                </div>
+				<div id="black">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
