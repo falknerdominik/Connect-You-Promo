@@ -104,7 +104,7 @@ body {
 	#formheighttext {
 		height: 2%;
 		margin-bottom: 1%;
-		background: white url("images/login/Anmelden_Icon") right no-repeat;
+		background: white url("images/login/Anmelden_Icon.png") right no-repeat;
 	}
 	
 	#formheightpass{
