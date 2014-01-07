@@ -104,13 +104,13 @@ body {
 	#formheighttext {
 		height: 2%;
 		margin-bottom: 1%;
-		background: white url("../images/Passwort_Icon.png") right no-repeat;
+		background: white url("../images/login/Anmelden_Icon") right no-repeat;
 	}
 	
 	#formheightpass{
 		height: 2%;
 		margin-bottom: 1%;
-		background: white url("../images/Passwort_Icon.png") right no-repeat;
+		background: white url("../images/login/Passwort_Icon.png") right no-repeat;
 	}
 	
 	.btn btn-lg btn-primary btn-block{
