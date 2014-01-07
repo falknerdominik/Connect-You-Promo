@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Scroll Horizontally</title>
+	<title>Connect-You</title>
 
 <link href="bootstrap.css" type="text/css" rel="stylesheet">
 <link href="demo.css" type="text/css" rel="stylesheet">
@@ -14,7 +14,6 @@
 <link href="style.css" type="text/css" rel="stylesheet">
 
 <script>
-
 $(document).ready(function() {
 
 	$('a.panel').click(function () {
@@ -49,7 +48,6 @@ function resizePanel() {
 	$('#wrapper').scrollTo($('a.selected').attr('href'), 0);
 		
 }
-
 </script>
 <script src="http://vjs.zencdn.net/4.1/video.js"></script>
 </head>
@@ -63,20 +61,19 @@ function resizePanel() {
 		<div id="item1" class="item">
 			<a name="item1"></a>
 			<div class="content">
+			
+			<!-- Div zum weiterschalten -->
+			  <a href="#item2" class="panel"><div id="leftbox"></div></a>
+					
 					<div id="logofeld">
 						<img id="logo" src="logo.png"/>
 					</div>
+					
 					<div id="black">
 						<form class="form-signin">
 							<input id="formheight" type="text" class="form-control" placeholder="Email address" required autofocus>
 							<input id="formheight" type="password" class="form-control" placeholder="Password" required>
-							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-							<a href="#item2" class="panel">2</a> | 
-							<a href="#item3" class="panel">3</a> | 
-							<a href="#item4" class="panel">4</a> | 
-							<a href="#item5" class="panel">5</a> | 
-							<a href="#item6" class="panel">6</a> | 
-							<a href="#item7" class="panel">7</a> | 
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Connect You</button>
 						</form>
 					</div>
 			</div>
@@ -86,14 +83,18 @@ function resizePanel() {
 		<!-- Video -->
         <div id="item2" class="item">
 			<a name="item2"></a>
-									<!--[if !IE]> -->
-					<video class="video-js" controls preload="auto" width="720" height="405" poster="images/video/poster.jpg" data-setup="{}">
+			
+				<!-- Pfeil vorwärts -->
+				<a href="#item3" class="panel"><div id="leftbox"></div></a>
+			
+				<!-- Pfeil rückwärts -->
+				<a href="#item1" class="panel"><div id="rightbox"></div></a>   
+				
+					<!--[if !IE]> -->
+					<video class="video-js" controls preload="auto" width="1100" height="710" poster="images/video/poster.jpg" data-setup="{}">
 					  <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
 					  <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
-					  
-					</video>
-					<a href="#item1" class="panel">1</a>
-					<a href="#item3" class="panel">3</a> | 					
+					</video>					
 			<div id="black">
 			</div>
 		</div>
@@ -102,6 +103,14 @@ function resizePanel() {
 		<!-- Vision -->
 			<div id="item3" class="item">
 				<a name="item3"></a>
+					
+				<!-- Pfeil vorwärts -->
+				<a href="#item4" class="panel"><div id="leftbox"></div></a>
+				
+				<!-- Pfeil rückwärts -->
+				<a href="#item2" class="panel"><div id="rightbox"></div></a>               
+
+					
 					<h1>Vision</h1>
 						<p>	
 							Durch unser Projekt wird die Zusammenarbeit zwischen Schüler, Lehrer und auch dem Unternehmer enorm erleichtert. 
@@ -121,16 +130,8 @@ function resizePanel() {
 						<p>
 							Ein großes Anliegen ist es uns, denn bisherigen “Papierkrieg” möglichst zu minimieren. “Connect you” soll Schüler und Unternehmen näher zusammen bringen 
 							und beide Parteien zum gemeinsamen Arbeiten animieren. Speziell für die Schule soll es die Organisation und die Übersicht  der Maturaprojekte erleichtern.
-						</p>	
-        
-                <div id="loginform"><a href="#item1" class="panel">1</a> | 
-				<a href="#item2" class="panel">2</a> | 
-				<a href="#item3" class="panel">3</a> | 
-				<a href="#item4" class="panel">4</a> | 
-				<a href="#item5" class="panel">5</a> | 
-                <a href="#item6" class="panel">6</a> | 
-                <a href="#item7" class="panel">7</a> | 
-                </div>
+						</p>
+
 				<div id="black">
 				</div>
 			</div>
@@ -138,6 +139,13 @@ function resizePanel() {
 			<!-- Client -->
 			<div id="item4" class="item">
 				<a name="item4"></a>
+				
+				<!-- Pfeil vorwärts -->
+				<a href="#item5" class="panel"><div id="leftbox"></div></a>
+					
+				<!-- Pfeil rückwärts -->
+				<a href="#item3" class="panel"><div id="rightbox"></div></a>   
+					
 					<div id="auftraggeber">
 						<div id="firstclient" class="clientcontent">
 								<p class="floatLeft">
@@ -145,11 +153,11 @@ function resizePanel() {
 									Sprachen, Wirtschaft, IT und Hauswirtschaft bekannt ist. Durch die verschiedenen Ausbildungsschwerpunkte ist für
 									jeden Schüler etwas dabei. 
 								</p>
-							<img src="http://placehold.it/250x250" />
+							<img src="images/site/bbs.jpg" width="250" height="250">
 						</div>
 						
 						<div id="secondclient" class="clientcontent">
-							<img src="http://placehold.it/250x250" />
+							<img src="images/site/ingo.jpg"/>
 							<p class="floatRight">
 								Ansprechpartner und maßgebliche Hilfe war unser IMC-Lehrer Ingo Lacheiner, welcher uns immer mit Rat und Tat zur Seite
 								stand und uns in allen Bereichen unterstützte. Hierbei ein großes Dankeschön, da es ohne seine Hilfe nicht möglich gewesen
@@ -157,20 +165,101 @@ function resizePanel() {
 							</p>
 						</div>
 					</div>
-                <div id="loginform"><a href="#item1" class="panel">1</a> | 
-				<a href="#item2" class="panel">2</a> | 
-				<a href="#item3" class="panel">3</a> | 
-				<a href="#item4" class="panel">4</a> | 
-				<a href="#item5" class="panel">5</a> | 
-                <a href="#item6" class="panel">6</a> | 
-                <a href="#item7" class="panel">7</a> | 
-                </div>
 				<div id="black">
 				</div>
 			</div>
-		</div>
+			
+			<!-- Team1 -->
+			<div id="item5" class="item">
+				<a name="item5"></a>
+				
+				<!-- Pfeil vorwärts -->
+				<a href="#item6" class="panel"><div id="leftbox"></div></a>
+				
+				<!-- Pfeil rückwärts -->
+				<a href="#item4" class="panel"><div id="rightbox"></div></a>   
+					
+					<div class="teamcontent">
+						<img src="http://placehold.it/150x150" />
+						<p class="floatRight">
+							Dominik Falkner war Projektleiter unserer Gruppe und trug neben der Verantwortung auch maßgeblich zur Erreichung unseres
+							Zieles bei. Seine Aufgaben waren unter anderem die Koordination des Teams, Einteilung der jeweiligen Aufgaben,
+							Erkennen der Stärken eines jeden Team-Mitglieds und er selbst programmierte auch selbst.
+						</p>
+					</div>
+					
+					<div class="teamcontent">
+						<p class="floatLeft">
+							Dorfer Valentin war Stellvertretender Projektleiter und vertrat Dominik Falkner, falls dieser verhindert war.
+							Er selbst war für die Bereiche Typo3 und CSS zuständig, da er dort seine Stärken ausspielen konnte. Ebenfalls zwei Bereiche in
+							welchen er sehr gut ist, sind Javascript und jQuery.
+						</p>
+						<img src="http://placehold.it/150x150" />
+					</div>
+					
+					<div class="teamcontent">
+						<img src="http://placehold.it/150x150" />
+						<p class="floatRight">
+							Dikany Lucas war Chefdesigner unseres Teams. Durch seine hervorragenden Photoshop Kenntnisse und seine
+							kreative Ader, welche ihn zu wahren Meisterwerken in Sachen Design verhilft, war dies die richtige Position
+							im Team. Zudem war er auch noch mit den HTML und CSS arbeiten beschäftigt.
+						</p>
+					</div>
+				<div id="black">
+				</div>
+			</div>
+			
+			
+			<!-- Team2 -->
+			<div id="item6" class="item">
+				<a name="item6"></a>
+				
+				<!-- Pfeil vorwärts -->
+				<a href="#item7" class="panel"><div id="leftbox"></div></a>
+				
+				<!-- Pfeil rückwärts -->
+				<a href="#item5" class="panel"><div id="rightbox"></div></a>   
+					
+					<div class="team2content">
+						<p class="floatLeft">
+							Peneder Martin war für die HTML und CSS Arbeiten im Team zuständig. Ein großer Bereich war neben Dikany Lucas, die Gestaltung
+							unsere Promotion Website, sowie die Programmierung dieser.
+						</p>
+						<img src="http://placehold.it/150x150" />
+					</div>
+					
+					<div class="team2content">
+						<img src="http://placehold.it/150x150" />
+						<p class="floatRight">
+							Christoph Filz war für die Dokumentation und das vorbereiten der Texte für Präsentationen zuständig.
+							Ebenfalls stammen die Texte für den Imagefilm von ihm, bzw. war er auch in der Rolle des Sprechers am Film beteiligt.
+						</p>
+					</div>
+				<div id="black">
+				</div>
+			</div>
+			
+			
+			<!-- Links -->
+			<div id="item7" class="item">
+				<a name="item7"></a>	
+				
+				<!-- Pfeil rückwärts -->
+				<a href="#item6" class="panel"><div id="rightbox"></div></a>   		
+				
+					<div class="links">
+						<h1>Technologien</h1>
+						<img src="images/site/typo3.png" alt="Typo3" />
+						<img src="images/site/prezi.png" alt="Prezi" />
+						<img src="images/site/notepad.png" alt="Notepad++" />
+						<img src="images/site/html5.png" alt="HTML5" />
+						<img src="images/site/css3.png" alt="CSS3" />
+						<img src="images/site/google.png" alt="Google Drive" />
+					</div>
+				<div id="black">
+				</div>
+			</div>
 	</div>
 </div>
-
 </body>
 </html>

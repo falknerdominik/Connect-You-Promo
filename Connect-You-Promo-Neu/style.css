@@ -5,54 +5,54 @@ h1{ /* Style h1 */
 		font-size: 1300%;
 	padding: 0;
 	margin: 0;
-		margin-bottom: 0.1em;
+		margin-bottom: 0.05em;
 }
 
 p { /* Style p so das es überall gleich ausschaut */
 	font-size: 114%;
-	/*text-align: justify; /* Blocksatz */
 	margin-bottom: 1.5em;
 	padding: 0;
 }
 
 .floatLeft{ /* Klassen wie diese kann man oft wiederverwenden */
 	float: left;
-	margin-right: 3%;
+	margin-left: 7%;
 }
 
 .floatRight{
 	float: right;
-	margin-left: 1%;
+	margin-right: 7%;
 }
 
 body {
 	height:100%;
 	width:100%;
-	margin:0;padding:0;
+	margin:0;
+	padding:0;
 	overflow:hidden;
-	overflow-x: scroll;
 }
 
 #wrapper {
 	width:100%;
 	height:100%;
 	position:absolute;
-	top:0;left:0;
+	top:0;
+	left:0;
 	background-color:#ccc;
 	overflow:hidden;
 }
 
 	#mask {
-		width:500%;
+		width:700%;
 		height:100%;
 		background-color:#eee;
 	}
 
 	.item {
-		width:20%;
+		width:14.28571428571429%;
 		height:100%;
 		float:left;
-		background-image: url("pixel_weave_blau.png");
+		background-image: url(images/site/pixel_weave_blau.png);
 	}
 	
 	
@@ -72,72 +72,85 @@ body {
 		clear:both;
 	}
 	
-	
 /***************
  * Home
- */
+ ***************/
  
 	#logo {
 		width: 100%;
 	}
 	#logofeld {
-		width: 40%;
+		width: 50%;
 		margin: 0 auto;
-		padding-top: 4%;
+		padding-top: 0%;
 	}
 	
 	#black {
 		position: absolute;
 		height: 175px;
-
 		width:100%;
 		bottom:20px;
-		background-image: url(escheresque_ste.png);
+		background-image: url(images/site/escheresque_ste.png);
 		background-repeat: repeat; 
 		-webkit-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 		-moz-box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 		box-shadow: inset 0 20px 20px rgba(1,1,1,.75);
 	}
 	.form-signin {
-		width: 14%;
+		width: 15em;
 		margin: 0 auto;
-		padding-top: 1.5em;
+		padding-top: 1.7em;
 	}
 	#formheight {
-		height: 3em;
+		height: 2%;
+		margin-bottom: 1%;
 	}
 	
+	.btn btn-lg btn-primary btn-block{
+		height: 2%;
+	}
+
+	
+/***************
+ * Video
+ ***************/
+
+.video-js{
+	margin-top:2%;
+	margin: 0 auto;
+}
 	
 /***************
  * Vision
- */
+ **************/
 
 #item3{
 	position: relative;
 	text-align: center;
-	padding-top: 0.3%;
 }
 
 #item3 h1{
 	text-align: right;
-	margin-right: 5%;
+	margin-right: 10%;
 	color: rgba(255,255,255,0.25);
+	margin-bottom: 1.5%;
 }
  
 #item3 p{
-	width: 90%;
+	width: 80%;
 	display: inline-block;
+	text-align: left;
 }
 
 /***************
  * Client
- */
+ ***************/
  
  #auftraggeber{
-	width: 80%;
 	margin: 0 auto;
-	background-color: grey;
+	margin-top: 4%;
  }
+ 
 .clientcontent{
 	width: 90%;
 	padding: 0.5%;
@@ -154,9 +167,131 @@ body {
 }
 
 #firstclient {
-	float: right;
+	width: 81%;
+	padding: 0.5%;
+	margin-bottom: 6%;
+	margin-left:7%;
+	text-align: right;
 }
 
 #secondclient {
-	float:left;
+	width: 87%;
+	padding: 0.5%;
+	margin-bottom: 0.5%;
+	margin-left: 8%;
 }
+
+/***************
+* Team-1
+*/
+ 
+.teamcontent1{
+	text-align: right;
+}
+ 
+.teamcontent{
+	width: 90%;
+	margin-top: 2%;
+	padding: 1.5%;
+	margin-bottom: 1.5%;
+	margin-left: 6%;
+}
+
+.teamcontent:nth-child(odd) p{
+	width: 85%;
+	padding: 1.5%;
+	margin-bottom: 1%;
+	margin-left: 0%;
+	text-align:right;
+	margin-right: 2%;
+}
+ 
+.teamcontent p{
+	display: block;
+	width: 80%;
+}
+ 
+.teamcontent img{
+	display: inline-block;
+}
+
+/***************
+* Team-2
+*/
+ 
+.team2content{
+	width: 90%;
+	margin-top: 2%;
+	padding: 1.5%;
+	margin-bottom: 1.5%;
+	margin-left: 6%;
+	margin-top: 5%;
+}
+
+.team2content:nth-child(even) p{
+	width: 85%;
+	padding: 1.5%;
+	margin-bottom: 1%;
+	margin-left: 0%;
+	text-align:right;
+	margin-right: 2%;
+}
+ 
+.team2content p{
+	display: block;
+	width: 80%;
+}
+ 
+.team2content img{
+	display: inline-block;
+}
+
+
+/***************
+ * Links
+ */
+
+.links h1{
+	font-family: Verdana;
+		font-variant: small-caps;
+		font-weight: 100;
+		font-size: 1100%;
+	padding: 0;
+	margin: 0;
+		margin-bottom: 7%;
+	margin-right: 5%;
+	text-align: right;
+	color: rgba(255,255,255,0.25);
+}
+
+.links img{
+	width: 8%;
+	height: 8%;
+	margin-left: 6.5%;
+	display: inline-block;
+}
+
+
+/***********
+Sonstiges
+***********/
+
+#leftbox {
+		float:right;
+		width: 6%;
+		height: 80%;
+	}
+	
+	#rightbox {
+		float:left;
+		width: 6%;
+		height: 80%;
+	}
+	
+	#rightbox:hover{
+		background-color:rgba(0, 0, 0, 0.25);
+	}
+	
+	#leftbox:hover {
+		background-color:rgba(0, 0, 0, 0.25);
+	}
