@@ -158,24 +158,17 @@ body {
 	margin-top: 4%;
  }
  
-.clientcontent{
-	width: 90%;
-	padding: 0.5%;
-	margin-bottom: 0.5%;
-}
- 
 .clientcontent p{
 	display: block;
-	width: 65%;
+	width: 75%;
 }
  
 .clientcontent img{
 	display: inline-block;
-	width: 100%;
 }
 
 #firstclient {
-	width: 75%;
+	width: 81%;
 	padding: 0.5%;
 	margin-bottom: 6%;
 	margin-left:7%;
@@ -183,7 +176,7 @@ body {
 }
 
 #secondclient {
-	width: 75%;
+	width: 87%;
 	padding: 0.5%;
 	margin-bottom: 0.5%;
 	margin-left: 8%;
