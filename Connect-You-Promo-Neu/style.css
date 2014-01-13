@@ -9,7 +9,7 @@ h1{ /* Style h1 */
 }
 
 p { /* Style p so das es überall gleich ausschaut */
-	font-size: 1.2em;
+	font-size: 1vw;
 	margin-bottom: 1.5em;
 	padding: 0;
 }
