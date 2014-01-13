@@ -87,7 +87,7 @@ body {
 	
 	#black {
 		position: absolute;
-		height: 175px;
+		height: 30%;
 		width:100%;
 		bottom:20px;
 		background-image: url(images/site/escheresque_ste.png);
