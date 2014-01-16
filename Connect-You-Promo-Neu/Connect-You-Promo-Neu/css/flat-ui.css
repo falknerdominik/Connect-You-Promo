@@ -1482,7 +1482,7 @@ label {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 15px;
   padding: 8px 12px;
-  height: 42px;
+  height: 2.5em;
   -webkit-appearance: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -2939,8 +2939,8 @@ input.todo-search-field.placeholder {
 
 .video-js {
   background-color: transparent;
-  width: 40em;
-  height: 40em;
+  width: 60em;
+  height: 60em;
   
   position: relative;
   margin-top:200px;
@@ -3104,10 +3104,10 @@ body.vjs-full-window {
 
 }
 .vjs-play-control div:after {
-  content: url(images/video/pause.png);
+  content: url(../images/video/pause.png);
 }
 .vjs-play-control div:before {
-  content: url(images/video/play.png);
+  content: url(../images/video/play.png);
 }
 .vjs-paused .vjs-play-control:hover div:before {
   color: #16a085;
@@ -3142,7 +3142,7 @@ body.vjs-full-window {
   margin: .5em auto 0;
 }
 .vjs-mute-control {
-  background: url(images/video/volume-full.png) center -48px no-repeat;
+  background: url(../images/video/volume-full.png) center -48px no-repeat;
   background-size: 16px 64px;
   cursor: pointer !important;
   position: absolute;
@@ -3155,10 +3155,10 @@ body.vjs-full-window {
 }
 .vjs-mute-control.vjs-vol-0,
 .vjs-mute-control.vjs-vol-0 div {
-  background-image: url(images/video/volume-off.png);
+  background-image: url(../images/video/volume-off.png);
 }
 .vjs-mute-control div {
-  background: #273747 url(images/video/volume-full.png) no-repeat center 2px;
+  background: #273747 url(../images/video/volume-full.png) no-repeat center 2px;
   background-size: 16px 64px;
   height: 18px;
   -webkit-transition: opacity 0.25s;
@@ -3265,7 +3265,7 @@ body.vjs-full-window {
   float: right;
 }
 .vjs-fullscreen-control {
-  background-image: url(images/video/fullscreen.png);
+  background-image: url(../images/video/fullscreen.png);
   background-position: center -47px;
   background-size: 15px 64px;
   cursor: pointer !important;
@@ -3279,7 +3279,7 @@ body.vjs-full-window {
 }
 .vjs-fullscreen-control div {
   height: 18px;
-  background: url(images/video/fullscreen.png) no-repeat center 2px;
+  background: url(../images/video/fullscreen.png) no-repeat center 2px;
   background-size: 15px 64px;
   -webkit-transition: opacity 0.25s;
   transition: opacity 0.25s;
