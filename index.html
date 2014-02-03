@@ -36,12 +36,12 @@ $(document).ready(function() {
 	
 });
 
-$(function() {
-			$("html, body, a.panel").mousewheel(function(event, delta) {
-				this.scrollLeft -= (delta * 30);
-				event.preventDefault();
-			});
-		});
+$(document).ready(function() {
+	$('html, body, *').mousewheel(function(e, delta) {
+		this.scrollLeft -= (delta * 40);
+		e.preventDefault();
+	});
+});
 
 function resizePanel() {
 
