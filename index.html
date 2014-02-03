@@ -36,6 +36,26 @@ $(document).ready(function() {
 	
 });
 
+$(document).ready(function() {
+
+	$('a.panel').mousedown(function () {
+
+		$('a.panel').removeClass('selected');
+		$(this).addClass('selected');
+		
+		current = $(this);
+		
+		$('#wrapper').scrollTo($(this).attr('href'), 800);		
+		
+		return false;
+	});
+
+	$(window).resize(function () {
+		resizePanel();
+	});
+	
+});
+
 function resizePanel() {
 
 	width = $(window).width();
