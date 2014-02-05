@@ -304,6 +304,20 @@ Sonstiges
 	margin-top: 19.5em;
 	margin-left: 1.5em;	
 }
+
+#item3 #leftbox img {
+	width: 40%;
+	height: 6%;
+	margin-top: 19.5em;
+	margin-left: 2em;
+}
+
+#item3 #rightbox img {
+	width: 40%;
+	height: 6%;
+	margin-top: 19.5em;
+	margin-left: 1.5em;	
+}
 	
 	#rightbox {
 		float:left;
