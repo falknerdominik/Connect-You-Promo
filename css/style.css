@@ -77,7 +77,7 @@ body {
  ***************/
  
 	#logo {
-		width: 50vw;
+		width: auto;
 		height: 80vh;
 	}
 	#logofeld {
