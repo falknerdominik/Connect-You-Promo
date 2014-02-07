@@ -1,0 +1,467 @@
+h1{ /* Style h1 */
+	font-family: Verdana;
+		font-variant: small-caps;
+		font-weight: 100;
+		font-size: 12vw;
+	padding: 0;
+	margin: 0;
+		margin-bottom: 0.05em;
+}
+
+p { /* Style p so das es überall gleich ausschaut */
+	font-size: 1.1vw;
+	margin-bottom: 1.2em;
+	padding: 0;
+	color:rgba(255,255,255,1);
+}
+
+.floatLeft{ /* Klassen wie diese kann man oft wiederverwenden */
+	float: left;
+	margin-left: 7%;
+}
+
+.floatRight{
+	float: right;
+	margin-right: 5%;
+}
+
+body {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#ccc;
+	overflow:hidden;
+}
+
+	#mask {
+		width:700%;
+		height:100%;
+		background-color:#eee;
+	}
+
+	.item {
+		width:14.28571428571429%;
+		height:100%;
+		float:left;
+		background-image: url(../images/site/pixel_weave_blau.png);
+	}
+	
+	
+	.content {
+		width:100%;
+		height:100%;
+		margin:0 auto;
+		position:relative;
+	}
+	
+	.selected {
+		background:#fff;
+		font-weight:700;
+	}
+
+	.clear {
+		clear:both;
+	}
+	
+/***************
+ * Home // NEU // Diksn
+ ***************/
+ 
+	#logo {
+		width: 100%;
+		height: auto;
+	}
+	#logofeld {
+		position:relative;
+		width: 100vh;
+		margin: 0 auto;
+	}
+	
+	.btn-primary:hover {
+		background-color:#3498db !important;
+	}
+	
+	#black {
+		position: absolute;
+		height: 18vh;
+		width: 100vw;
+		bottom: 2%;
+		background-image: url(../images/site/escheresque_ste.png);
+		background-repeat: repeat; 
+		-webkit-box-shadow: inset 0 20px 20px rgba(1,1,1,.25);
+		-moz-box-shadow: inset 0 20px 20px rgba(1,1,1,.25);
+		box-shadow: inset 0 20px 20px rgba(1,1,1,.25);
+		overflow:hidden;
+		border-top: 2px solid white;
+		border-bottom: 2px solid white;
+
+	}
+	
+
+		
+	.form-signin {
+		position: relative;
+		width: 15em;
+		height:	100%;
+		margin: 0 auto;
+		padding-top: 1.4%;
+	}
+	#formheighttext {
+		min-height: 2em;
+		margin-bottom: 1%;
+		background: white url("../images/login/Anmelden_Icon.png") right no-repeat;
+		border-radius: 0px;
+	}
+	
+	#formheightpass{
+		min-height: 2em;
+		margin-bottom: 1.2%;
+		background: white url("../images/login/Passwort_Icon.png") right no-repeat;
+		border-radius: 0px;
+
+	}
+	
+	.btn btn-lg btn-primary btn-block{
+		height: 30%;
+		border-radius: 0px;
+
+	}
+	
+	#button{
+		border-radius: 0px;
+
+	}
+
+	
+/***************
+ * Video
+ ***************/
+
+.video-js{
+	margin-top: 2%;
+	margin: 0 auto;
+}
+	
+/***************
+ * Vision
+ **************/
+
+#item3{
+	position: relative;
+	text-align: center;
+}
+
+#vision{
+	height:30%;
+	margin-top: 1%;
+	margin-left: 30%;
+}
+ 
+#item3 p{
+	width: 80%;
+	display: inline-block;
+	text-align: left;
+}
+
+
+#vision_klein {
+	width: 100%;
+}
+
+
+#vision_wrapper1{
+	position: relative;
+	width: 15%;
+	height: inherit;
+	margin-top: 1.5%;
+	float: left;
+	margin-left: 2%;
+	
+}
+#vision_wrapper2{
+	position: relative;
+	width: 15%;
+	height: inherit;
+	margin-top: 1.5%;
+	margin-left: 40%;}
+
+#vision_wrapper3{
+	position: relative;
+	width: 15%;
+	height: inherit;
+	margin-top: -7%;
+	float: right;
+	margin-right: 2%;
+}
+
+
+
+
+/***************
+ * Client
+ ***************/
+ 
+ #auftraggeber{
+	margin: 0 auto;
+	margin-top: 4%;
+ }
+ 
+ #auftraggeber_bild {
+	 position: relative;
+	width: 40%;
+	margin-left: 25%;
+	margin-top: -40%;
+	 
+	 
+ }
+ 
+.clientcontent{
+	width: 90%;
+	padding: 0.5%;
+	margin-bottom: 0.5%;
+}
+ 
+.clientcontent p{
+	display: block;
+	width: 75%;
+}
+ 
+.clientcontent img{
+	display: inline-block;
+	border: white solid 1px;
+}
+
+#firstclient {
+	width: 81%;
+	padding: 0.5%;
+	margin-bottom: 6%;
+	margin-left:7%;
+	text-align: right;
+}
+
+#secondclient {
+	width: 87%;
+	padding: 0.5%;
+	margin-bottom: 0.5%;
+	margin-left: 8%;
+}
+
+#auftr_klein1 {
+	width: 100%;
+	
+}
+
+#auftr_klein2 {
+	width: 100%;
+	
+}
+#auftr_klein3 {
+	width: 100%;
+}
+
+
+#auftr_wrapper1{
+	position: relative;
+	width: 20%;
+	height: inherit;
+	margin-top: 0.5%;
+	float: left;
+	margin-left: 2%;
+	
+}
+#auftr_wrapper2{
+	position: relative;
+	width: 20%;
+	height: inherit;
+	margin-top: 0.5%;
+	margin-left: 40%;}
+
+#auftr_wrapper3{
+	position: relative;
+	width: 20%%;
+	height: inherit;
+	margin-top: -7%;
+	float: right;
+	margin-right: 2%;
+}
+
+
+
+/***************
+* Team-1
+*/
+ 
+.teamcontent1{
+	text-align: right;
+}
+ 
+.teamcontent{
+	width: 90%;
+	margin-top: 2%;
+	padding: 1.5%;
+	margin-bottom: 1.5%;
+	margin-left: 6%;
+}
+
+.teamcontent:nth-child(odd) p{
+	width: 85%;
+	padding: 1.5%;
+	margin-bottom: 1%;
+	margin-left: 0%;
+	text-align:right;
+	margin-right: 2%;
+}
+ 
+.teamcontent p{
+	display: block;
+	width: 80%;
+}
+ 
+.teamcontent img{
+	display: inline-block;
+	border: white solid 1px;
+}
+
+#team_bild {
+	position: relative;
+	width: 15%;
+	margin-left: 40%;
+	margin-top: -55%;
+	
+}
+
+#work_bild {
+	pposition: relative;
+	width: 15%;
+	margin-left: 40%;
+	margin-top: -35%;
+}
+
+/***************
+* Team-2
+*/
+ 
+.team2content{
+	width: 90%;
+	margin-top: 2%;
+	padding: 1.5%;
+	margin-bottom: 1.5%;
+	margin-left: 6%;
+	margin-top: 5%;
+}
+
+.team2content:nth-child(even) p{
+	width: 85%;
+	padding: 1.5%;
+	margin-bottom: 1%;
+	margin-left: 0%;
+	text-align:right;
+	margin-right: 2%;
+}
+ 
+.team2content p{
+	display: block;
+	width: 80%;
+}
+ 
+.team2content img{
+	display: inline-block;
+	border: white solid 1px;
+}
+
+
+/***************
+ * Links // MArtiiin
+ */
+
+#techno {
+	width: 70%;
+	margin-right: 5%;
+	margin-left: 5%;
+	float: right;
+	margin-bottom: 15vh;
+}
+
+
+
+.links img{
+	
+	width: 8%;
+	height: 8%;
+	margin-left: 6.5%;
+	display: inline-block;
+}
+
+
+/***********
+Sonstiges // Neu // Diksn
+***********/
+
+#leftbox {
+		float:right;
+		width: 6%;
+		height: 80%;
+	}
+
+#leftbox img {
+	width: 60%;
+	margin-top: 37vh;
+	margin-left: 20%;
+}
+
+#rightbox img {
+	width: 60%;
+	margin-top: 37vh;
+	margin-left: 20%;
+}
+
+#item3 #leftbox img {
+	width: 60%;
+	margin-top: 37vh;
+	margin-left: 20%;
+}
+
+#item3 #rightbox img {
+	width: 60%;
+	margin-top: 37vh;
+	margin-left: 20%;
+}
+
+#CY_r {
+	width:inherit;
+	height:inherit;
+	background-image:url(../images/site/CY.png);
+	background-repeat:repeat-x;
+	background-position:center;
+	background-size:40%;
+}
+	
+	#rightbox {
+		float:left;
+		width: 6%;
+		height: 80%;
+	}
+	
+	
+	
+	#rightbox:hover{
+		background-color: rgba(255,255,255,0.25);
+	}
+	
+	#leftbox:hover {
+		background-color: rgba(255,255,255,0.25);
+	}
+	
+	
+	
+	/*/*/
