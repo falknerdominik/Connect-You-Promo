@@ -82,7 +82,7 @@ function resizePanel() {
 						<form class="form-signin">
 							<input id="formheighttext" type="text" class="form-control" placeholder="Email address" required autofocus>
 							<input id="formheightpass" type="password" class="form-control" placeholder="Password" required>
-							<button class="btn btn-lg btn-primary btn-block" type="submit">Connect You</button>
+							<button id="button" class="btn btn-lg btn-primary btn-block" type="submit">Connect You</button>
 						</form>
 					</div>
 			</div>
@@ -100,11 +100,14 @@ function resizePanel() {
 				<a href="#item1" class="panel"><div id="rightbox"><img src="images/site/arrow_backward.png"></div></a>   
 				
 					<!--[if !IE]> -->
-					<video class="video-js" controls preload="auto"  width="60%" height="77%" poster="images/video/poster.jpg" data-setup="{}">
-					  <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+					<video class="video-js" controls preload="auto"  width="60%" height="77%" poster="images/site/logo.png" data-setup="{}">
+					  <source src="images/video/Imagefilm_Teil1 done.avi" type="video/mp4">
 					  <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
 					</video>					
 			<div id="black">
+                            	<div id="CY_r">
+                    </div>
+
 			</div>
 		</div>
 		
@@ -120,7 +123,7 @@ function resizePanel() {
 				<a href="#item2" class="panel"><div id="rightbox"><img src="images/site/arrow_backward.png"></div></a>               
 
 					
-					<h1>Vision</h1>
+					<img src="images/site/vision.png" id="vision" alt="Vision (c) Diksn">
 						<p>	
 							Durch unser Projekt wird die Zusammenarbeit zwischen Schüler, Lehrer und auch dem Unternehmer enorm erleichtert. 
 							Jede dieser Parteien kann jederzeit die derzeitige Lage des Projektes verfolgen und sich leicht beteiligen. 
@@ -142,6 +145,21 @@ function resizePanel() {
 						</p>
 
 				<div id="black">
+                    <div id="CY_r">
+                    </div>
+
+                <!--
+                	<div id="vision_wrapper1">
+                	<img src="images/site/vision.png" alt="Auftraggeber und so" id="vision_klein">
+                    </div>
+                    <div id="vision_wrapper2">
+                    <img src="images/site/vision.png" alt="Auftraggeber und so" id="vision_klein">
+                    </div>
+                    <div id="vision_wrapper3">
+                    <img src="images/site/vision.png" alt="Auftraggeber und so" id="vision_klein">
+                    </div>
+                -->
+                	
 				</div>
 			</div>
 			
@@ -156,6 +174,7 @@ function resizePanel() {
 				<a href="#item3" class="panel"><div id="rightbox"><img src="images/site/arrow_backward.png"></div></a>   
 					
 					<div id="auftraggeber">
+
 						<div id="firstclient" class="clientcontent">
 								<p class="floatLeft">
 									Unser Auftraggeber ist unsere Schule - die BBS-Rohrbach, welche für Ihre hervorragende Ausbildung in den Bereichen
@@ -164,6 +183,7 @@ function resizePanel() {
 								</p>
 							<img src="images/site/bbs.jpg" width="15%" height="12%" />
 						</div>
+                        
 						
 						<div id="secondclient" class="clientcontent">
 							<img src="images/site/ingo.jpg" width="15%" height="12%"/>
@@ -173,8 +193,24 @@ function resizePanel() {
 								wäre ein Projekt in dieser Größe zu realisieren. 
 							</p>
 						</div>
+                                <img src="images/site/Auftraggeber.png" alt="Auftraggeber und so" id="auftraggeber_bild">
+
 					</div>
 				<div id="black">
+                    <div id="CY_r">
+                    </div>
+
+                <!--
+                	<div id="auftr_wrapper1">
+                	<img src="images/site/Auftraggeber.png" alt="Auftraggeber und so" id="auftr_klein1">
+                    </div>
+                    <div id="auftr_wrapper2">
+                    <img src="images/site/Auftraggeber.png" alt="Auftraggeber und so" id="auftr_klein2">
+                    </div>
+                    <div id="auftr_wrapper3">
+                    <img src="images/site/Auftraggeber.png" alt="Auftraggeber und so" id="auftr_klein3">
+                    </div>
+                -->
 				</div>
 			</div>
 			
@@ -189,7 +225,7 @@ function resizePanel() {
 				<a href="#item4" class="panel"><div id="rightbox"><img src="images/site/arrow_backward.png"></div></a>   
 					
 					<div class="teamcontent">
-						<img src="http://placehold.it/150x150" width="9%" height="9%" />
+						<img src="images/site/dominik.jpg" width="12%" height="12%" />
 						<p class="floatRight">
 							Dominik Falkner war Projektleiter unserer Gruppe und trug neben der Verantwortung auch maßgeblich zur Erreichung unseres
 							Zieles bei. Seine Aufgaben waren unter anderem die Koordination des Teams, Einteilung der jeweiligen Aufgaben,
@@ -203,18 +239,24 @@ function resizePanel() {
 							Er selbst war für die Bereiche Typo3 und CSS zuständig, da er dort seine Stärken ausspielen konnte. Ebenfalls zwei Bereiche in
 							welchen er sehr gut ist, sind Javascript und jQuery.
 						</p>
-						<img src="http://placehold.it/150x150" width="9%" height="9%" />
+						<img src="images/site/vale.jpg" width="12%" height="12%" />
 					</div>
 					
 					<div class="teamcontent">
-						<img src="http://placehold.it/150x150" width="9%" height="9%" />
+						<img src="images/site/Lucas.jpg" width="12%" height="12%" />
 						<p class="floatRight">
 							Dikany Lucas war Chefdesigner unseres Teams. Durch seine hervorragenden Photoshop Kenntnisse und seine
 							kreative Ader, welche ihn zu wahren Meisterwerken in Sachen Design verhilft, war dies die richtige Position
 							im Team. Zudem war er auch noch mit den HTML und CSS arbeiten beschäftigt.
 						</p>
 					</div>
+                            <img src="images/site/Team.png" alt="Team und so" id="team_bild">
+                            <img src="images/site/Work.png" alt="Work und so" id="work_bild">
+
 				<div id="black">
+                                	<div id="CY_r">
+                    </div>
+
 				</div>
 			</div>
 			
@@ -231,15 +273,14 @@ function resizePanel() {
 					
 					<div class="team2content">
 						<p class="floatLeft">
-							Peneder Martin war für die HTML und CSS Arbeiten im Team zuständig.
-							Ein großer Bereich war die Gestaltung unserer Promotion Website, sowie die Programmierung
-							dieser. Zudem war er für die Umsetzung des Design beim Marketplace mit CSS beauftragt.
+							Peneder Martin war für die HTML und CSS Arbeiten im Team zuständig. </br>
+							Ein großer Bereich war neben Dikany Lucas, die Gestaltung unsere Promotion Website, sowie die Programmierung dieser.
 						</p>
-						<img src="images/site/martin.jpg" width="10%" height="10%" />
+						<img src="images/site/martin.jpg" width="12%" height="12%" />
 					</div>
 					
 					<div class="team2content">
-						<img src="http://placehold.it/150x150" width="10%" height="10%" />
+						<img src="images/site/Christoph.jpg" width="12%" height="12%" />
 						<p class="floatRight">
 							Christoph Filz war für die Dokumentation und das vorbereiten der Texte für Präsentationen zuständig.
 							Er war zudem Hauptbeauftragter für den Imagefilm, also zuständig für das Schneiden des Filmes, die Texte
@@ -247,6 +288,9 @@ function resizePanel() {
 						</p>
 					</div>
 				<div id="black">
+                                	<div id="CY_r">
+                    </div>
+
 				</div>
 			</div>
 			
@@ -257,9 +301,8 @@ function resizePanel() {
 				
 				<!-- Div zum zurückschalten -->
 				<a href="#item6" class="panel"><div id="rightbox"><img src="images/site/arrow_backward.png"></div></a>   		
-				
+						<img src="images/site/Technologie.png" id="techno" alt="Technologie (c) Diksn">
 					<div class="links">
-						<h1>Technologien</h1>
 						<img src="images/site/typo3.png" alt="Typo3" />
 						<img src="images/site/prezi.png" alt="Prezi" />
 						<img src="images/site/notepad.png" alt="Notepad++" />
@@ -268,6 +311,8 @@ function resizePanel() {
 						<img src="images/site/google.png" alt="Google Drive" />
 					</div>
 				<div id="black">
+                	<div id="CY_r">
+                    </div>
 				</div>
 			</div>
 	</div>

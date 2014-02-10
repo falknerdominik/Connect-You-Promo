@@ -760,7 +760,8 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 6px;
 }
 .btn-lg {
-  padding: 10px 19px;
+  padding: 1% 2px 1%;
+  height: 30%;  
   font-size: 17px;
   line-height: 1.471;
   border-radius: 6px;
@@ -1482,7 +1483,7 @@ label {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 15px;
   padding: 8px 12px;
-  height: 2.5em;
+  height: 30%;
   -webkit-appearance: none;
   -webkit-box-shadow: none;
   box-shadow: none;
