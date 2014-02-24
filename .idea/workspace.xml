@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d72d56ce-8554-4bd9-bcd1-d58534d048f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promo.js" afterPath="$PROJECT_DIR$/js/promo.js" />
     </list>
     <ignored path="Connect-You-Promo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="49" selection-start="866" selection-end="866" vertical-scroll-proportion="0.38230884" vertical-offset="0" max-vertical-offset="4935">
+            <state line="17" column="49" selection-start="866" selection-end="866" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="4935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promo.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/promo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="1" selection-start="899" selection-end="899" vertical-scroll-proportion="0.85227275" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -53,6 +63,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/promo.js" />
       </list>
     </option>
   </component>
@@ -117,6 +128,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connect-You-Promo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connect-You-Promo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -143,6 +168,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -214,7 +252,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="866" selection-end="866" vertical-scroll-proportion="0.38230884" vertical-offset="0" max-vertical-offset="4935">
+        <state line="17" column="49" selection-start="866" selection-end="866" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="4935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="1" selection-start="899" selection-end="899" vertical-scroll-proportion="0.85227275" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
