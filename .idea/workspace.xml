@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d72d56ce-8554-4bd9-bcd1-d58534d048f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promo.js" afterPath="$PROJECT_DIR$/js/promo.js" />
     </list>
     <ignored path="Connect-You-Promo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.42728636" vertical-offset="15" max-vertical-offset="4305">
+            <state line="272" column="33" selection-start="11486" selection-end="11490" vertical-scroll-proportion="6.35514" vertical-offset="0" max-vertical-offset="4275">
               <folding />
             </state>
           </provider>
@@ -259,7 +258,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.42728636" vertical-offset="15" max-vertical-offset="4305">
+        <state line="272" column="33" selection-start="11486" selection-end="11490" vertical-scroll-proportion="6.35514" vertical-offset="0" max-vertical-offset="4275">
           <folding />
         </state>
       </provider>
