@@ -32,12 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="290" column="13" selection-start="3945" selection-end="3945" vertical-scroll-proportion="0.33238637" vertical-offset="4116" max-vertical-offset="7095">
+            <state line="290" column="13" selection-start="3945" selection-end="3945" vertical-scroll-proportion="0.0" vertical-offset="4116" max-vertical-offset="7095">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images/site/google.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -158,7 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tile" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,9 +275,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="13" selection-start="3945" selection-end="3945" vertical-scroll-proportion="0.33238637" vertical-offset="4116" max-vertical-offset="7095">
+        <state line="290" column="13" selection-start="3945" selection-end="3945" vertical-scroll-proportion="0.0" vertical-offset="4116" max-vertical-offset="7095">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/site/google.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
