@@ -48,7 +48,7 @@ function resizePanel() {
 function setCSS(){
     // Auslensen der Werte
     var img = $('#login_bg');
-    var wrapperWidth = $('#login_bg_wrapper');
+    var wrapperWidth = $('.login_bg_wrapper');
 
     // Beim Auslesen wird mit der Einheit ausgelesen!!!!
     alert(img.css('height'));
@@ -60,7 +60,7 @@ function setCSS(){
     var marginLeft = wrapperWidth.css('width').replace(/[^-\d\.]/g, '') / 4;
     alert(height + " - " + marginTop + " - " + marginLeft);
     // Einsetzen
-    $('#login_bg_wrapper').css('height', height);
+    $('.login_bg_wrapper').css('height', height);
     $('#login_bg').css('margin-left', marginLeft);
     $('#login_bg').css('margin-top', marginTop);
 }
