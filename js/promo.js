@@ -23,6 +23,8 @@ $(document).ready(function() {
         this.scrollLeft -= (delta * 1920);
         e.preventDefault();
     });
+
+    setHeight();
 });
 
 function resizePanel() {
