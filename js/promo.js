@@ -50,7 +50,7 @@ function setHeight() {
 	var wrapperWidth = document.getElementById("login_bg_wrapper");
 	var marginLeft = wrapperWidth.width / 4;
 	alert(height)
-	$('#login_bg_wrapper').css('height',height);
+	document.getElementById("login_bg_wrapper").style.height = height;
 	document.getElementById("login_bg").style.marginTop = marginTop;
 	alert(marginTop);
 	
