@@ -36,7 +36,7 @@ function resizePanel() {
 
     $('#debug').html(width  + ' ' + height + ' ' + mask_width);
 
-    $('#wrapper, .item').css({'width': width, 'height': height});
+    $('#wrapper .item').css({'width': width, 'height': height});
     $('#mask').css({width: mask_width, height: height});
     $('#wrapper').scrollTo($('a.selected').attr('href'), 0);
 
