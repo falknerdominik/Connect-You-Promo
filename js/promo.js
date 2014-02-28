@@ -24,7 +24,7 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
-    setHeight();
+    
 });
 
 function resizePanel() {
