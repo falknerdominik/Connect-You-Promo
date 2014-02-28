@@ -77,15 +77,15 @@ body {
  * Home // NEU // Diksn
  ***************/
  
-#logo {
-    width: 42%;
-    margin: 0 auto;
-	height:auto;
-}
-#logo img {
-    width: 100%;
-	margin-top:5%;
-}
+	#logo {
+		width: 42%;
+		margin: 0 auto;
+		height:auto;
+	}
+	#logo img {
+		width: 100%;
+		margin-top:5%;
+	}
 	
 	.btn-primary:hover {
 		background-color:#3498db !important;
