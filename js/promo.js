@@ -26,11 +26,9 @@ $(document).ready(function() {
 
     setCSS();
 });
-/*
 $(window).resize(function(){
     setCSS();
 });
-*/
 
 function resizePanel() {
 
@@ -46,7 +44,6 @@ function resizePanel() {
     $('#wrapper').scrollTo($('a.selected').attr('href'), 0);
 
 }
-/*
 
 function setCSS(){
     // Auslensen der Werte
@@ -67,4 +64,3 @@ function setCSS(){
     $('#login_bg').css('margin-left', marginLeft);
     $('#login_bg_wrapper').css('margin-top', marginTop);
 }
-*/
