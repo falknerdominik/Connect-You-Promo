@@ -78,13 +78,13 @@ body {
  ***************/
  
 	#logo {
-		width: 42%;
-		margin: 0 auto;
-		height:auto;
-	}
-	#logo img {
 		width: 100%;
-		margin-top:5%;
+		height: auto;
+	}
+	#logofeld {
+		position:relative;
+		width: 40%;
+		margin: 0 auto;
 	}
 	
 	.btn-primary:hover {
