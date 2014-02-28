@@ -22,6 +22,7 @@ function setHeight() {
 	var img = document.getElementById("login_bg");
 	var height = img.height / 2;
 	var marginTop = height / 2 * -1;
+	alert(height);
 	
 	var wrapperWidth = document.getElementById("login_bg_wrapper");
 	var marginLeft = wrapperWidth.width / 4;
@@ -29,7 +30,7 @@ function setHeight() {
 	document.getElementById("login_bg").style.marginTop = marginTop;
 	
 	document.getElementById("login_bg").style.marginLeft = marginLeft;
-	alert(1);
+	
 }
 window.onload = setHeight;
 window.onresize = setHeight;
