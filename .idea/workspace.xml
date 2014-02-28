@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d72d56ce-8554-4bd9-bcd1-d58534d048f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promo.js" afterPath="$PROJECT_DIR$/js/promo.js" />
-    </list>
+    <list default="true" id="d72d56ce-8554-4bd9-bcd1-d58534d048f0" name="Default" comment="" />
     <ignored path="Connect-You-Promo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
