@@ -40,15 +40,4 @@ function resizePanel() {
 
 }
 
-function setHeight() {
-	var img = document.getElementById("login_bg");
-	var height = img.height / 2;
-	var marginTop = height / 2 * -1;
-	var wrapperWidth = document.getElementById("login_bg_wrapper");
-	var marginLeft = wrapperWidth.width / 4;
-	document.getElementById("login_bg_wrapper").style.height = height;
-	document.getElementById("login_bg").style.marginTop = marginTop;
-	document.getElementById("login_bg").style.marginLeft = marginLeft;
-}
-window.onload = setHeight;
-window.onresize = setHeight;
+
