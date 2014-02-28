@@ -28,19 +28,7 @@ $(document).ready(function() {
 });
 
 $(window).resize(function(){
-        // Auslensen der Werte
-        var img = $('#login_bg');
-        var wrapperWidth = $('#login_bg_wrapper');
-
-        // Berechnen
-        var height = img.css('height') / 2;
-        var marginTop = height /2 * -1;
-        var marginLeft = wrapperWidth.css('width') / 4;
-
-        // Einsetzen
-        $('#login_bg').css('height', height);
-        $('#login_bg').css('margin-left', marginLeft);
-        $('#login_bg_wrapper').css('margin-top', marginTop);
+    setCSS();
 });
 
 function resizePanel() {
@@ -56,4 +44,20 @@ function resizePanel() {
     $('#mask').css({width: mask_width, height: height});
     $('#wrapper').scrollTo($('a.selected').attr('href'), 0);
 
+}
+
+function setCSS(){
+    // Auslensen der Werte
+    var img = $('#login_bg');
+    var wrapperWidth = $('#login_bg_wrapper');
+
+    // Berechnen
+    var height = img.css('height') / 2;
+    var marginTop = height /2 * -1;
+    var marginLeft = wrapperWidth.css('width') / 4;
+
+    // Einsetzen
+    $('#login_bg').css('height', height);
+    $('#login_bg').css('margin-left', marginLeft);
+    $('#login_bg_wrapper').css('margin-top', marginTop);
 }
