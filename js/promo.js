@@ -52,9 +52,9 @@ function setCSS(){
     var wrapperWidth = $('#login_bg_wrapper');
     alert(img.css('height'));
     // Berechnen
-    var height = img.css('height') / 2;
+    var height = img.css('height').replace(/[^-\d\.]/g, '') / 2;
     var marginTop = height /2 * -1;
-    var marginLeft = wrapperWidth.css('width') / 4;
+    var marginLeft = wrapperWidth.css('width').replace(/[^-\d\.]/g, '') / 4;
     alert(height + " - " + marginTop + " - " + marginLeft);
     // Einsetzen
     $('#login_bg').css('height', height);
