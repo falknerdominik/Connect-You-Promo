@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d72d56ce-8554-4bd9-bcd1-d58534d048f0" name="Default" comment="" />
+    <list default="true" id="d72d56ce-8554-4bd9-bcd1-d58534d048f0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="Connect-You-Promo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="990" selection-end="1436" vertical-scroll-proportion="0.33733132" vertical-offset="90" max-vertical-offset="4755">
+            <state line="35" column="29" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.65217394" vertical-offset="90" max-vertical-offset="4800">
               <folding />
             </state>
           </provider>
@@ -68,9 +70,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/promo.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -303,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="990" selection-end="1436" vertical-scroll-proportion="0.33733132" vertical-offset="90" max-vertical-offset="4755">
+        <state line="35" column="29" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.65217394" vertical-offset="90" max-vertical-offset="4800">
           <folding />
         </state>
       </provider>
