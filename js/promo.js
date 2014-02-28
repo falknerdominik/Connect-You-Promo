@@ -26,10 +26,11 @@ $(document).ready(function() {
 
     setCSS();
 });
-
+/*
 $(window).resize(function(){
     setCSS();
 });
+*/
 
 function resizePanel() {
 
