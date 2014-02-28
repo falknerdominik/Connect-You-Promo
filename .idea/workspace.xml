@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72d56ce-8554-4bd9-bcd1-d58534d048f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promo.js" afterPath="$PROJECT_DIR$/js/promo.js" />
     </list>
     <ignored path="Connect-You-Promo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="promo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.5099432" vertical-offset="31" max-vertical-offset="735">
+            <state line="42" column="60" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.8082386" vertical-offset="61" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/promo.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/promo.js" />
       </list>
     </option>
   </component>
@@ -305,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.5099432" vertical-offset="31" max-vertical-offset="735">
+        <state line="42" column="60" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.8082386" vertical-offset="61" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
