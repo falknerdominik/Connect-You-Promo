@@ -55,7 +55,7 @@ function setCSS(){
     alert(img.css('height'));
 
     // Berechnen
-    // .replace ist notwendig um die Einheit wegzugrigen (bis auf . und - ... 
+    // .replace ist notwendig um die Einheit wegzugrigen (bis auf . und - ...
     var height = img.css('height').replace(/[^-\d\.]/g, '') / 2;
     var marginTop = height /2 * -1;
     var marginLeft = wrapperWidth.css('width').replace(/[^-\d\.]/g, '') / 4;
