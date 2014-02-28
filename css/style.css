@@ -105,7 +105,8 @@ body {
 
 
 	#login_bg {
-		width:100%;	
+		width:100%;
+		height: auto;	
 	}
 	
 	#login_bg_wrapper{
