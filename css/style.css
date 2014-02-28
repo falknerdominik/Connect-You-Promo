@@ -108,7 +108,7 @@ body {
 		width:100%;
 	}
 	
-	#login_bg_wrapper{
+	.login_bg_wrapper{
 		width: 100%;
 		background-image: url("../images/site/tweed.png");
 	}
