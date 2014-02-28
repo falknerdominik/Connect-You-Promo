@@ -55,7 +55,7 @@ function setCSS(){
     var height = img.css('height') / 2;
     var marginTop = height /2 * -1;
     var marginLeft = wrapperWidth.css('width') / 4;
-    alert();
+    alert(height + " - " + marginTop + " - " + marginLeft);
     // Einsetzen
     $('#login_bg').css('height', height);
     $('#login_bg').css('margin-left', marginLeft);
