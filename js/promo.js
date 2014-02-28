@@ -50,7 +50,10 @@ function setCSS(){
     // Auslensen der Werte
     var img = $('#login_bg');
     var wrapperWidth = $('#login_bg_wrapper');
+
+    // Beim Auslesen wird mit der Einheit ausgelesen!!!!
     alert(img.css('height'));
+
     // Berechnen
     var height = img.css('height').replace(/[^-\d\.]/g, '') / 2;
     var marginTop = height /2 * -1;
