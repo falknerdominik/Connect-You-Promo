@@ -60,7 +60,7 @@ function setCSS(){
     var marginLeft = wrapperWidth.css('width').replace(/[^-\d\.]/g, '') / 4;
     alert(height + " - " + marginTop + " - " + marginLeft);
     // Einsetzen
-    $('#login_bg').css('height', height);
+    $('#login_bg_wrapper').css('height', height);
     $('#login_bg').css('margin-left', marginLeft);
-    $('#login_bg_wrapper').css('margin-top', marginTop);
+    $('#login_bg').css('margin-top', marginTop);
 }
