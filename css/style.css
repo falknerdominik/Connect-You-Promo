@@ -109,9 +109,10 @@ body {
 	}
 	
 	.login_bg_wrapper{
+		position: absolute;
+		bottom: 4em;
 		width: 100%;
-		background-image: url("../images/site/tweed.png");
-	}
+		background-image: url("../images/site/tweed.png");	}
 	
 	#zentrieren {
 		width: 50%;
