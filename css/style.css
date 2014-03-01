@@ -12,7 +12,7 @@ p { /* Style p so das es überall gleich ausschaut */
 	font-size: 1.1vw;
 	margin-bottom: 1.2em;
 	padding: 0;
-	color:rgba(255,255,255,1);
+	color: rgba(51,51,51,1);
 }
 
 .floatLeft{ /* Klassen wie diese kann man oft wiederverwenden */
