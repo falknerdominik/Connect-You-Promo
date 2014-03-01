@@ -143,9 +143,10 @@ body {
 	.form-signin {
 		position: relative;
 		width: 15em;
-		height:	100%;
-		margin: 0 auto;
-		padding-top: 1.4%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -8em;
 	}
 	#formheighttext {
 		min-height: 2em;
